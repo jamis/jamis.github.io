@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { width: 100%; height: 100%; }
+
+body { background-color: #FFF; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+
+/*>=----------------------------------------------------------=<*
+ * Site
+ *>=----------------------------------------------------------=<*/
+
+.header {
+  text-align: center;
+  background-color: black;
+}
+
+ul.tabs {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: block;
+  text-align: center;
+}
+
+ul.tabs li {
+  display: inline-block;
+  background: black;
+  margin: 0.5em;
+  margin-top: 0;
+}
+
+ul.tabs li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  display: block;
+}
+
+#mobile-banner {
+  display: none;
+}
+
+.site {
+  font-size: 115%;
+  text-align: justify;
+  width: 42em;
+  margin: 3em auto 2em;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 24pt;
+  margin-bottom: 0;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+/*>=----------------------------------------------------------=<*
+ * Post index
+ *>=----------------------------------------------------------=<*/
+
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.posts li {
+  line-height: 1.75em;
+}
+
+.posts a {
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.posts a:hover {
+  background-color: #eee;
+}
+
+.posts a h2 {
+  font-family: Georgia, serif;
+  font-size: 150%;
+  color: black;
+}
+
+.posts a p {
+  color: #555;
+  font-style: italic;
+  margin-left: 2em;
+}
+
+.posts a p span {
+  color: #999;
+}
+
+/*>=----------------------------------------------------------=<*
+ * Post formatting
+ *>=----------------------------------------------------------=<*/
+
+.chapter {
+  color: #777;
+}
+
+.chapter:after {
+  content: ". ";
+  color: #777;
+}
+
+.blurb {
+  margin: 2em 2em;
+  padding: 1em;
+  color: #777;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-style: italic;
+  font-size: 0.9em;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.post {
+  padding: 1em 0;
+}
+
+.post p {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 16pt;
+  line-height: 1.5em;
+  text-indent: 2em;
+}
+
+.post p:first-child {
+  text-indent: 0;
+}
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
+
+.illustration {
+  text-align: center;
+  margin: 1em;
+}
+
+.illustration.right {
+  float: right;
+  margin-right: 0;
+}
+
+.illustration.left {
+  float: left;
+  margin-left: 0;
+}
+
+.illustration img {
+  display: block;
+}
+
+.illustration p.caption {
+  font-style: italic;
+  color: #777;
+  text-indent: 0;
+  margin: 1em 0;
+  padding: 0;
+  font-size: 12pt;
+}
+
+.illustration .mobile {
+  display: none;
+}

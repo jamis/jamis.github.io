@@ -1,0 +1,76 @@
+@media screen and (max-width: 42em) {
+
+.site {
+  width: 100%;
+  margin: 1em 0;
+  text-align: left;
+}
+
+#banner { display: none; }
+#mobile-banner { display: block; }
+
+h1 {
+  font-size: 18pt;
+  text-align: center;
+}
+
+.posts a h2 {
+  font-size: 16pt;
+  text-align: center;
+}
+
+a h2 .title {
+  color: #00a;
+  text-decoration: underline;
+}
+
+.chapter {
+  display: block;
+  padding-bottom: 0.2em;
+}
+
+.blurb {
+  margin: 1em 0;
+  padding: 1em;
+  line-height: 1.5em;
+}
+
+.post {
+  margin: 0 1em;
+}
+
+.post p {
+  font-size: 14pt;
+  text-indent: 1.5em;
+}
+
+.illustration {
+  margin: 1em;
+  text-align: center;
+}
+
+.illustration img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.illustration.left {
+  float: none;
+  margin-left: auto;
+}
+
+.illustration.right {
+  float: none;
+  margin-right: auto;
+}
+
+.illustration .mobile {
+  display: block;
+}
+
+.illustration .desktop {
+  display: none;
+}
+
+}

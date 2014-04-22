@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>
+      {% if page.title %}{{ page.title | escape }}{% else %}{{ site.name | escape }}{% endif %}
+    </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/mobile.css">
+  </head>
+  <body>
+    <div class="header">
+      <img id="banner" src="{{ site.url }}/images/banner.png" width="800" height="239" alt="{{ site.name }}" title="{{ site.name }}" />
+      <img id="mobile-banner" src="{{ site.url }}/images/mobile-banner.png" width="320" height="95" alt="{{ site.name }}" title="{{ site.name }}" />
+    </div>
+
+    <ul class="tabs">
+      <li><a href="{{ site.url }}/">Home</a></li>
+      <li><a href="{{ site.url }}/about.html">About</a></li>
+    </ul>
+
+    <div class="site">
+      {{ content }}
+    </div>
+  </body>
+</html>

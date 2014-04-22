@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}#start">
+          <h2><span class="chapter">{{ post.chapter }}</span><span class="title">{{ post.title }}</span></h2>
+          <p class="blurb">{{ post.date | date_to_string }} &mdash; {{ post.blurb }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
