@@ -2,6 +2,12 @@ name: Basil & Fabian - A Wizard & His Man
 markdown: redcarpet
 pygments: true
 exclude: [ public ]
+url: http://blog.jamisbuck.org
+description: |
+  Follow the wizard Basil and his sarcastic sidekick Fabian as they discover
+  and explain algorithm after algorithm. Each chapter of their adventures is
+  lovingly hand-crafted and illustrated by millions of tiny cells, miraculously
+  acting in focused unison.
 
 redcarpet:
   extensions: [ smart ]

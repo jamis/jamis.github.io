@@ -71,39 +71,41 @@ h1 {
  * Post index
  *>=----------------------------------------------------------=<*/
 
+#home .introduction {
+  border-bottom: 4px double black;
+  padding: 0.5em 2em;
+  font-size: 16pt;
+}
+
+#home .introduction p:first-child {
+  font-weight: bold;
+}
+
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
 .posts li {
+  margin-top: 1em;
   line-height: 1.75em;
 }
 
-.posts a {
-  display: block;
-  text-decoration: none;
-  padding: 1em;
-}
-
-.posts a:hover {
-  background-color: #eee;
-}
-
-.posts a h2 {
+.posts li h2 {
   font-family: Georgia, serif;
   font-size: 150%;
   color: black;
 }
 
-.posts a p {
+.posts li p {
   color: #555;
   font-style: italic;
   margin-left: 2em;
 }
 
-.posts a p span {
-  color: #999;
+.posts .blurb {
+  border: none;
+  margin: 0em 2em;
 }
 
 /*>=----------------------------------------------------------=<*
@@ -208,4 +210,15 @@ h1 {
 
 .illustration .mobile {
   display: none;
+}
+
+body.about .site {
+  width: 32em;
+  font-size: 16pt;
+}
+
+body.about h2 {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 0.25em 0;
 }
