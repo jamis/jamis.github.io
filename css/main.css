@@ -222,3 +222,19 @@ body.about h2 {
   border-bottom: 1px solid black;
   padding: 0.25em 0;
 }
+
+/* license */
+.license-container {
+  border-top: 1px solid black;
+  background: #ccc;
+  padding: 1em;
+}
+
+.license {
+  width: 20em;
+  text-align: center;
+  margin: 1em auto;
+  font-size: 10pt;
+  color: #555;
+  font-family: Tahoma, Geneva, sans-serif;
+}

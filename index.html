@@ -13,7 +13,7 @@ layout: default
   </div>
 
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.posts reversed %}
       <li>
         <h2><span class="chapter">{{ post.chapter }}</span><a href="{{ post.url }}#start">{{ post.title }}</a></h2>
         <p class="blurb">{{ post.date | date_to_string }} &mdash; {{ post.blurb }}</p>
