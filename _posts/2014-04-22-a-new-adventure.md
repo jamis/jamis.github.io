@@ -56,7 +56,7 @@ Fabian had looked progressively more panicky as his master spoke. "Me? Wizardry?
 
 "Ah, but, sir---"
 
-Basil silenced the smaller man with a raised had. "Enough. You will follow me."
+Basil silenced the smaller man with a raised hand. "Enough. You will follow me."
 
 The wizard turned and opened the large gate, gesturing his servant-apprentice through before him. Fabian cringed, but sighed. "Yes, sir. As you say, sir." He picked up their bundles and moved resignedly through the opening.
 
