@@ -6,6 +6,7 @@ blurb: |
   In which our heroes are introduced and walk voluntarily into a hedge
   maze of unknown dimension. Also, a bit of foreshadowing which may or may
   not involve meat processing.
+next_chapter: /2014/05/05/first-great-secret
 ---
 
 Basil Smockwhitener---wizard and gentleman---stroked his enormous mustaches thoughtfully, gently tugging on the cottony-white billows that obscured both sides of his face. His brow was furrowed deeply over his small eyes as he considered the wrought-iron gate in front of him.

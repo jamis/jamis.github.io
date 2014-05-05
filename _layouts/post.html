@@ -2,11 +2,20 @@
 layout: default
 ---
 <h1><span class="chapter">{{ page.chapter }}</span>{{ page.title }}</h1>
-<p class="blurb">{{ page.date | date_to_string }} &mdash; {{ page.blurb }}</p>
+<div class="blurb">
+  <p>
+    {{ page.date | date: "%-d %B %Y" }} &mdash; {{ page.blurb }}
+    {{ content | number_of_words }} words. {{ content | number_of_words | plus: 150 | divided_by: 300 }} minutes.
+  </p>
+</div>
 
-<div id="start" class="post">
+{% include navigation.html position="top" %}
+
+<div class="post">
 {{ content }}
 </div>
+
+{% include navigation.html position="bottom" %}
 
 <div class="comments">
 <div id="disqus_thread"></div>

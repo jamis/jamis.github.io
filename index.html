@@ -16,7 +16,14 @@ layout: default
     {% for post in site.posts reversed %}
       <li>
         <h2><span class="chapter">{{ post.chapter }}</span><a href="{{ post.url }}#start">{{ post.title }}</a></h2>
-        <p class="blurb">{{ post.date | date_to_string }} &mdash; {{ post.blurb }}</p>
+        <div class="blurb">
+          <p>
+            {{ post.date | date: "%-d %B %Y" }} &mdash;
+            {{ post.blurb }}
+            {{ post.content | number_of_words }} words.
+            {{ post.content | number_of_words | plus: 150 | divided_by: 300 }} minutes.
+          </p>
+        </div>
       </li>
     {% endfor %}
     <li>
@@ -24,8 +31,8 @@ layout: default
       <p class="blurb">
         Our heroes have a lot more to experience before they're
         through. Come back weekly to read more of their escapades, each
-        lovingly hand-crafted and illustrated by millions of tiny cells,
-        miraculously acting in focused unison. Oh, and there's an
+        lovingly hand-crafted and illustrated by millions of tiny cells
+        acting in glorious unison. Oh, and there's an
         <a href="{{ site.url }}/feed.xml">RSS feed</a>, too,
         if that's your thing.
       </p>

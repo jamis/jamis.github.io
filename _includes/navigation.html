@@ -1,0 +1,20 @@
+<div class="navigation {{ include.position }}">
+  {% if page.previous_chapter %}
+    {% for post in site.posts %}
+      {% if post.id == page.previous_chapter %}
+        <span class="previous">
+          &#x2190; <a href="{{ post.url }}#start">{{ post.chapter }}: {{ post.title }}</a>
+        </span>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  {% if page.next_chapter %}
+    {% for post in site.posts %}
+      {% if post.id == page.next_chapter %}
+        <span class="next">
+          <a href="{{ post.url }}#start">{{ post.chapter }}: {{ post.title }}</a> &#x2192;
+        </span>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+</div>

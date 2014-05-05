@@ -56,15 +56,57 @@ ul.tabs li a {
   font-size: 115%;
   text-align: justify;
   width: 42em;
-  margin: 3em auto 2em;
+  margin: 1em auto 2em;
   line-height: 1.5em;
 }
 
 h1 {
   font-size: 24pt;
+  padding-top: 2em;
   margin-bottom: 0;
   font-family: Georgia, serif;
   text-align: center;
+}
+
+/*>=----------------------------------------------------------=<*
+ * Navigation
+ *>=----------------------------------------------------------=<*/
+
+.navigation {
+  padding: 0 2em;
+  margin-bottom: 1em;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  color: #999;
+}
+
+.navigation:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.navigation.bottom {
+  margin-top: 1em;
+  padding: 0 1em;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  background: #ddd;
+}
+
+.navigation .previous {
+  float: left;
+}
+
+.navigation .next {
+  float: right;
+}
+
+.navigation a {
+  font-weight: normal;
 }
 
 /*>=----------------------------------------------------------=<*
@@ -122,8 +164,7 @@ h1 {
 }
 
 .blurb {
-  margin: 2em 2em;
-  padding: 1em;
+  margin: 2em 2em 0 2em;
   color: #777;
   font-family: Tahoma, Geneva, sans-serif;
   font-style: italic;
@@ -132,8 +173,12 @@ h1 {
   border-bottom: 1px solid black;
 }
 
+.blurb p {
+  margin: 1em;
+}
+
 .post {
-  padding: 1em 0;
+  padding: 1em 0 0 0;
 }
 
 .post p {
@@ -185,6 +230,10 @@ h1 {
   margin: 1em;
 }
 
+.figure {
+  width: 100%;
+}
+
 .illustration.right {
   float: right;
   margin-right: 0;
@@ -199,6 +248,11 @@ h1 {
   display: block;
 }
 
+.figure img {
+  display: block;
+  margin: 1em auto;
+}
+
 .illustration p.caption {
   font-style: italic;
   color: #777;
@@ -208,7 +262,7 @@ h1 {
   font-size: 12pt;
 }
 
-.illustration .mobile {
+.illustration .mobile, .figure .mobile {
   display: none;
 }
 
