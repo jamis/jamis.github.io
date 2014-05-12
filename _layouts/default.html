@@ -18,6 +18,11 @@
     <!-- RSS feed -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 
+    <!-- javascripts -->
+    {% for script in page.scripts %}
+      <script type="text/javascript" src="{{ script }}"></script>
+    {% endfor %}
+
     {% include ga.html %}
   </head>
   <body class="{{ page.class }}">
@@ -37,5 +42,11 @@
     </div>
 
     {% include license.html %}
+
+    {% if page.script %}
+      <script type="text/javascript">
+        {{ page.script }}
+      </script>
+    {% endif %}
   </body>
 </html>

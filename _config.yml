@@ -1,7 +1,7 @@
 name: Basil & Fabian - A Wizard & His Man
 markdown: redcarpet
 pygments: true
-exclude: [ public ]
+exclude: [ Cakefile, public ]
 url: http://blog.jamisbuck.org
 description: |
   Follow the wizard Basil and his sarcastic sidekick Fabian as they discover

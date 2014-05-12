@@ -7,6 +7,7 @@ blurb: |
   like circles. Basil introduces the basics of maze navigation,
   and reveals the First Great Secret of Wizardry.
 previous_chapter: /2014/04/22/a-new-adventure
+next_chapter: /2014/05/12/tremauxs-algorithm
 ---
 
 It was only about twenty meters to the first branching. Basil strode into the hedge maze purposefully, humming gleefully to himself the entire way. Fabian followed reluctantly, glancing furtively about as he dragged his feet along the gravel path. The tall, green hedges seemed to swallow all sound, leaving them cocooned in a still, nearly-silent world where all they could hear was the crunch of their feet on the gravel and a bare whispering of the wind as it writhed through the tops of the hedges.

@@ -113,6 +113,11 @@ h1 {
   text-indent: 0;
 }
 
+canvas {
+  width: 260px;
+  height: 260px;
+}
+
 .comments {
   width: 80%;
   margin: 0 auto;
