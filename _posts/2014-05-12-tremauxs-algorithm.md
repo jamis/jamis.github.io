@@ -6,6 +6,7 @@ blurb: |
   In which we interrupt the story to ask Dr. Smockwhitener a few questions,
   and maybe suggest something unfortunate in Fabian's near future.
 previous_chapter: /2014/05/05/first-great-secret
+next_chapter: /2014/05/27/demons-in-the-details
 scripts:
   - /js/tremaux-minified.js
 script: |
@@ -166,8 +167,8 @@ Yes, yes. Now off with you. I need to start thinking about how to get Fabian out
 
 <div class="figure">
   <div>
-    <a href="javascript:solveTremaux('tremaux')" class="action">solve it</a>
-    <a href="javascript:generateTremaux('tremaux')" class="action">new maze</a>
+    <a href="javascript:solveTremaux('tremaux')" class="action">solve</a>
+    <a href="javascript:generateTremaux('tremaux')" class="action">new</a>
     <canvas id="tremaux" width="400" height="400"></canvas>
   </div>
   <p class="caption">

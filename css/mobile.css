@@ -60,6 +60,11 @@ h1 {
   text-indent: 1.5em;
 }
 
+p.caption {
+  text-indent: 0;
+  font-size: 12pt;
+}
+
 .navigation {
   text-align: center;
   border-bottom: 1px solid #777;
@@ -85,6 +90,12 @@ h1 {
   text-align: center;
 }
 
+.illustration, .figure {
+  padding-top: 1em;
+  border-top: 1px solid #777;
+  border-bottom: 1px solid #777;
+}
+
 .illustration img {
   margin-left: auto;
   margin-right: auto;
@@ -94,10 +105,12 @@ h1 {
 .illustration.left {
   float: none;
   margin-left: auto;
+  margin-right: auto;
 }
 
 .illustration.right {
   float: none;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -109,7 +122,7 @@ h1 {
   display: none;
 }
 
-.illustration + p {
+.illustration + p, .figure + p {
   text-indent: 0;
 }
 

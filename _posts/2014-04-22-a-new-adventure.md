@@ -45,7 +45,7 @@ Basil didn't seem to be listening. "You know," he said. "I think that's a *maze*
 
 "Nonsense," Basil said. "This is perfect. I've been meaning to begin training you in wizardry. When I was last at the Conclave, the other wizards all said you were wasted as a manservant. I quite agree. And now here we are, standing before a maze, which any wizard worth his facial hair knows are veritable hot beds of educational opportunity. It's too good to pass up!"
 
-Fabian had looked progressively more panicky as his master spoke. "Me? Wizardry? Ah, no, thank you, sir, but surely you remember the last time---"
+Fabian looked progressively more panicky as his master spoke. "Me? Wizardry? Ah, no, thank you, sir, but surely you remember the last time---"
 
 "I'll not hear any more about this, Fabian," Basil said, finally turning to his manservant. "The last time---well, accidents do happen. What happened was...regretful."
 

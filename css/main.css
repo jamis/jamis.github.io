@@ -257,8 +257,8 @@ h1 {
 
 .figure a.action {
   display: inline-block;
-  width: 5em;
-  margin: 0 1em;
+  width: 4em;
+  margin: 0 0.5em;
   padding: 0.5em 1em;
   background-color: #559;
   border: 1px solid black;
