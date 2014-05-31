@@ -7,6 +7,8 @@ class: about
 My name is Jamis Buck, and this is my algorithms blog.
 ----
 
+{% include illustration.html align="left" width="200" height="200" image="jamis-portrait.png" alt="Jamis Buck" class='bare' %}
+
 Don't be all scared off because I said "algorithms", though. It's
 kind of non-traditional.
 
