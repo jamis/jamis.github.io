@@ -163,6 +163,21 @@ h1 {
   color: #777;
 }
 
+.audio {
+  margin: 2em auto;
+  text-align: center;
+}
+
+.audio audio {
+  margin: 0;
+  padding: 0;
+}
+
+.audio p {
+  margin: 0;
+  padding: 0;
+}
+
 .blurb {
   margin: 2em 2em 0 2em;
   color: #777;

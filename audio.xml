@@ -1,0 +1,45 @@
+---
+layout: nil
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>{{ site.name | xml_escape }}</title>
+    <link>{{ site.url }}</link>
+    <language>en</language>
+    <copyright>&#xA9; 2014 Jamis Buck</copyright>
+    <itunes:subtitle>Basil &amp; Fabian have adventures and explore algorithms.</itunes:subtitle>
+    <itunes:author>Jamis Buck</itunes:author>
+    <itunes:keywords>algorithms,comedy,fiction,fantasy,mazes,magic</itunes:keywords>
+    <itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
+    <description>{{ site.description | xml_escape }}</description>
+    <itunes:owner>
+      <itunes:name>Jamis Buck</itunes:name>
+      <itunes:email>jamis@jamisbuck.org</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://jamisbuck.org/basil-fabian/album-art.jpg" />
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:category text="Arts">
+      <itunes:category text="Literature" />
+    </itunes:category>
+    <itunes:category text="Comedy" />
+    <itunes:category text="Science &amp; Medicine" />
+
+    {% for post in site.posts  %}
+      {% if post.audio %}
+        <item>
+          <title>{{ post.chapter }} - {{ post.title | xml_escape }}</title>
+          <itunes:author>Jamis Buck</itunes:author>
+          <itunes:summary>{{ post.blurb | xml_escape }}</itunes:summary>
+          <itunes:image href="http://jamisbuck.org/basil-fabian/album-art.jpg" />
+          <enclosure url="{{ post.audio.url }}" length="{{ post.audio.length }}" type="audio/mpeg" />
+          <guid>{{ post.audio.url }}</guid>
+          <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} GMT</pubDate>
+          <itunes:duration>{{ post.audio.duration }}</itunes:duration>
+          <itunes:keywords>algorithms,comedy,fiction,fantasy,mazes,magic</itunes:keywords>
+        </item>
+      {% endif %}
+    {% endfor %}
+  </channel>
+</rss>

@@ -2,6 +2,17 @@
 layout: default
 ---
 <h1><span class="chapter">{{ page.chapter }}</span>{{ page.title }}</h1>
+{% if page.audio %}
+<div class="audio" data-url="{{ page.audio.url }}">
+  <audio controls>
+    <source src="{{ page.audio.url }}" type="audio/mpeg" />
+  </audio>
+  <p>
+    <a href="{{ page.audio.url }}">Download the MP3</a>
+    ({{ page.audio.length | plus: 524288 | divided_by: 1048576 }}MB)
+  </p>
+</div>
+{% endif %}
 <div class="blurb">
   <p>
     {{ page.date | date: "%-d %B %Y" }} &mdash; {{ page.blurb }}
