@@ -2,11 +2,12 @@
 layout: post
 title: Demons in the Details
 chapter: Chapter 2
-blurb: |
+blurb: >
   Fabian confesses to a youthful dalliance, discovers how flooding a
   maze is like Dijkstra's algorithm, and faces at least two terrifying
   things.
 previous_chapter: /2014/05/12/tremauxs-algorithm
+next_chapter: /2014/06/09/bitter-roots-growing-tree
 scripts:
   - /js/dijkstra-minified.js
 script: |
