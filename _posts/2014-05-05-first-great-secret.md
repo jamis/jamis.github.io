@@ -8,6 +8,10 @@ blurb: |
   and reveals the First Great Secret of Wizardry.
 previous_chapter: /2014/04/22/a-new-adventure
 next_chapter: /2014/05/12/tremauxs-algorithm
+audio:
+  url: http://jamisbuck.org/basil-fabian/02-chapter1.mp3
+  length: 6527220
+  duration: 23:26
 ---
 
 It was only about twenty meters to the first branching. Basil strode into the hedge maze purposefully, humming gleefully to himself the entire way. Fabian followed reluctantly, glancing furtively about as he dragged his feet along the gravel path. The tall, green hedges seemed to swallow all sound, leaving them cocooned in a still, nearly-silent world where all they could hear was the crunch of their feet on the gravel and a bare whispering of the wind as it writhed through the tops of the hedges.
@@ -254,7 +258,7 @@ Fabian shook his head and sighed. "Yes, sir. No magic. Distilling the obvious, a
 
 "Please don't tell me you feel a song coming on, sir."
 
-Basil rolled his yes. "No songs, Fabian."
+Basil rolled his eyes. "No songs, Fabian."
 
 "But now you're going to tell me that this 'wall-following' thing is a metaphor for all of wizardry, or something?"
 
