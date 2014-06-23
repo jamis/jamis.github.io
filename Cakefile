@@ -25,3 +25,15 @@ task 'dijkstra', 'Build js sources for Dijkstra demo', ->
     yui.stdout.on 'data', (data) -> fs.write(fd, data.toString())
     yui.stderr.on 'data', (data) -> print data.toString()
     yui.on 'exit', (code) -> fs.close(fd)
+
+task 'tree-transform', 'Build js sources for tree-transform demo', ->
+  sources = [ '_src/mersenne.coffee', '_src/maze.coffee', '_src/graph_transformation.coffee' ]
+  coffee = spawn 'coffee', ['-c', '-j', 'tree-transform', '-o', 'js', sources...]
+  coffee.stdout.on 'data', (data) -> print data.toString()
+  coffee.stderr.on 'data', (data) -> print data.toString()
+
+  fs.open "js/tree-transform-minified.js", "w", (err, fd) ->
+    yui = spawn 'yuicompressor', ['js/tree-transform.js']
+    yui.stdout.on 'data', (data) -> fs.write(fd, data.toString())
+    yui.stderr.on 'data', (data) -> print data.toString()
+    yui.on 'exit', (code) -> fs.close(fd)

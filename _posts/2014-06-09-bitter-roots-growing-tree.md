@@ -7,6 +7,7 @@ blurb: >
   history. He meets Fergus' assistant. A comparison of maze
   algorithms is set forth.
 previous_chapter: /2014/05/27/demons-in-the-details
+next_chapter: /2014/06/23/second-great-secret
 ---
 
 Curmudgeon Castle was every bit as dim and damp as Basil remembered. He followed Fergus down the ill-lit hallways and found his mind returning to that day, years ago, when the Conclave had asked him to visit a few prospective acolytes. Fergus had been one such---a promising young lad eager to be trained and recognized by the ruling body of wizardry. As welcoming as the parents of the young Fergus Curmudgeon had been, and as much effort as they had put into making a good impression, it hadn't changed the reality that a castle's halls are poorly lit, and more than a little cave-like. Basil realized how much he missed his own cozy hill-top home.
