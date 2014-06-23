@@ -74,8 +74,10 @@ window.generateTremaux = (id) ->
   tremaux.render()
 
   canvas.tremaux = tremaux
+  return
 
 window.solveTremaux = (id) ->
   canvas = document.getElementById id
   tremaux = canvas.tremaux
   tremaux.solve 50
+  return

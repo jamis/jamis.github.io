@@ -73,15 +73,19 @@ window.generateDijkstra = (id, size) ->
   dijkstra = new Dijkstra id, size, size
   dijkstra.render()
   canvas.dijkstra = dijkstra
+  return
 
 window.resetDijkstra = (id) ->
   canvas = document.getElementById id
   canvas.dijkstra?.reset()
+  return
 
 window.updateDijkstra = (id) ->
   canvas = document.getElementById id
   canvas.dijkstra?.update()
+  return
 
 window.runDijkstra = (id) ->
   canvas = document.getElementById id
   canvas.dijkstra?.run()
+  return

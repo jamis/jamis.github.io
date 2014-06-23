@@ -247,16 +247,20 @@ window.generateTree = (id, size) ->
   tree = new GraphTransformation id, size, size
   tree.render()
   canvas.tree = tree
+  return
 
 window.resetTree = (id) ->
   canvas = document.getElementById id
   canvas.tree?.reset()
   canvas.tree?.render()
+  return
 
 window.animateTree = (id, duration) ->
   canvas = document.getElementById id
   canvas.tree?.animate(duration)
+  return
 
 window.stepTree = (id) ->
   canvas = document.getElementById id
   canvas.tree?.step()
+  return
