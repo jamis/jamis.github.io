@@ -37,3 +37,15 @@ task 'tree-transform', 'Build js sources for tree-transform demo', ->
     yui.stdout.on 'data', (data) -> fs.write(fd, data.toString())
     yui.stderr.on 'data', (data) -> print data.toString()
     yui.on 'exit', (code) -> fs.close(fd)
+
+task 'greedy', 'Build js sources for greedy demo', ->
+  sources = [ '_src/mersenne.coffee', '_src/maze.coffee', '_src/rendered_maze.coffee', '_src/binary_heap.coffee', '_src/greedy.coffee' ]
+  coffee = spawn 'coffee', ['-c', '-j', 'greedy', '-o', 'js', sources...]
+  coffee.stdout.on 'data', (data) -> print data.toString()
+  coffee.stderr.on 'data', (data) -> print data.toString()
+
+  fs.open "js/greedy-minified.js", "w", (err, fd) ->
+    yui = spawn 'yuicompressor', ['js/greedy.js']
+    yui.stdout.on 'data', (data) -> fs.write(fd, data.toString())
+    yui.stderr.on 'data', (data) -> print data.toString()
+    yui.on 'exit', (code) -> fs.close(fd)

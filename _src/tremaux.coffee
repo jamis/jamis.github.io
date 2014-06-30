@@ -4,7 +4,7 @@ class window.Tremaux extends RenderedMaze
   constructor: (id, width, height) ->
     super id, width, height, (maze) =>
       maze.thin 50
-      [pathLength, @startX, @startY, @endX, @endY] = maze.findLongestPath()
+      [pathLength, @startX, @startY, @endX, @endY] = maze.findMostDistantPoints()
 
     @resetVisitations()
 

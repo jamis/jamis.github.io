@@ -11,6 +11,7 @@ scripts:
 script: |
   window.onload = function() { generateTree("transform-canvas", 11); };
 previous_chapter: /2014/06/09/bitter-roots-growing-tree
+next_chapter: /2014/06/30/need-greed-speed
 ---
 
 His family's ancestral dungeons were every bit as welcoming and hospitable as Fabian remembered. Which is to say, they weren't. The tiny cell was damp and mostly empty, with a few pitiful pieces of ancient straw for bedding. It was also chokingly pungent, thanks in large measure to a chamber pot in one corner that probably hadn't been emptied since Fabian had last graced these apartments.
