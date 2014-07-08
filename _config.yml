@@ -1,6 +1,6 @@
 name: Basil & Fabian - A Wizard & His Man
 markdown: redcarpet
-pygments: true
+highlighter: true
 exclude: [ Cakefile, public ]
 url: http://blog.jamisbuck.org
 description: |

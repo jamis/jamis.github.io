@@ -2,6 +2,7 @@
 layout: post
 title: A New Adventure
 chapter: Prologue
+words: 823
 blurb: >
   In which our heroes are introduced and walk voluntarily into a hedge
   maze of unknown dimension. Also, a bit of foreshadowing which may or may

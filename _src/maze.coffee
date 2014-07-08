@@ -124,11 +124,9 @@ class Maze
 
     [longestPath, startX, startY, endX, endY]
 
-  findLongestPath: ->
-    # find the most distant point from an arbitrary point
-    [distances, longestPath, [startX, startY]] = @findDistances(0, 0)
-    # find the most distant point from THAT point
-    [distances, longestPath, [endX, endY]]     = @findDistances(startX, startY)
+  findPathBetween: (startX, startY, endX, endY) ->
+    # find the shortest paths from startX,startY
+    [distances, longestPath, [farX, farY]] = @findDistances(startX, startY)
 
     { dx, dy, opposite, directions } = @utilities()
 
@@ -143,3 +141,11 @@ class Maze
           [x, y] = [nx, ny]
 
     [startX, startY, endX, endY, path]
+
+  findLongestPath: ->
+    # find the most distant point from an arbitrary point
+    [distances, longestPath, [startX, startY]] = @findDistances(0, 0)
+    # find the most distant point from THAT point
+    [distances, longestPath, [endX, endY]]     = @findDistances(startX, startY)
+
+    @findPathBetween(startX, startY, endX, endY)

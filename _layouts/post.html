@@ -16,7 +16,7 @@ layout: default
 <div class="blurb">
   <p>
     {{ page.date | date: "%-d %B %Y" }} &mdash; {{ page.blurb }}
-    {{ content | number_of_words }} words. {{ content | number_of_words | plus: 150 | divided_by: 300 }} minutes.
+    {{ page.words }} words. {{ page.words | plus: 150 | divided_by: 300 }} minutes.
   </p>
 </div>
 

@@ -2,7 +2,8 @@
 layout: post
 title: Tremaux's Algorithm
 chapter: Interlude
-blurb: |
+words: 1056
+blurb: >
   In which we interrupt the story to ask Dr. Smockwhitener a few questions,
   and maybe suggest something unfortunate in Fabian's near future.
 previous_chapter: /2014/05/05/first-great-secret

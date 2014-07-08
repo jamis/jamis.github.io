@@ -20,8 +20,8 @@ layout: default
           <p>
             {{ post.date | date: "%-d %B %Y" }} &mdash;
             {{ post.blurb }}
-            {{ post.content | number_of_words }} words.
-            {{ post.content | number_of_words | plus: 150 | divided_by: 300 }} minutes.
+            {{ post.words }} words.
+            {{ post.words | plus: 150 | divided_by: 300 }} minutes.
           </p>
         </div>
       </li>

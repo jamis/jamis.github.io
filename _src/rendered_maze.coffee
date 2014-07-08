@@ -1,12 +1,21 @@
 class window.RenderedMaze
-  constructor: (id, width, height, callback) ->
+  constructor: (id, width, height, options, callback) ->
     @canvas = document.getElementById id
-    @maze = new Maze(width, height)
+    @maze = new Maze(width, height, options)
 
     callback?(@maze)
 
-    @dx = @canvas.width / @maze.width
-    @dy = @canvas.height / @maze.height
+    @displayedWidth = @canvas.width
+    @displayedHeight = @canvas.height
+    @displayedOriginX = 0
+    @displayedOriginY = 0
+
+    @recomputeMetrics()
+
+
+  recomputeMetrics: ->
+    @dx = @displayedWidth / @maze.width
+    @dy = @displayedHeight / @maze.height
 
     if @startX? && @startY?
       @startCell = [
@@ -45,23 +54,42 @@ class window.RenderedMaze
 
   renderBackground: (ctx) ->
 
-  render: ->
+  clear: ->
     @canvas.width = @canvas.width
+
+  renderInBounds: (ox, oy, width, height, cookie) ->
+    [dw, dh, dox, doy] = [@displayedWidth, @displayedHeight, @displayedOriginX, @displayedOriginY]
+    [@displayedWidth, @displayedHeight, @displayedOriginX, @displayedOriginY] = [width, height, ox, oy]
+
+    @recomputeMetrics()
+    @render(cookie)
+
+    [@displayedWidth, @displayedHeight, @displayedOriginX, @displayedOriginY] = [dw, dh, dox, doy]
+    @recomputeMetrics()
+
+  rerender: ->
+    @clear()
+    @render()
+
+  render: (cookie) ->
     ctx = @canvas.getContext "2d"
 
-    @renderBackground ctx
+    @renderBackground ctx, cookie
+
+    ox = @displayedOriginX
+    oy = @displayedOriginY
 
     if @startCell?
       ctx.fillStyle = "red"
-      ctx.fillRect(@startCell[0], @startCell[1], @startCell[2], @startCell[3])
+      ctx.fillRect(ox + @startCell[0], oy + @startCell[1], @startCell[2], @startCell[3])
 
     if @endCell?
       ctx.fillStyle = "green"
-      ctx.fillRect(@endCell[0], @endCell[1], @endCell[2], @endCell[3])
+      ctx.fillRect(ox + @endCell[0], oy + @endCell[1], @endCell[2], @endCell[3])
 
     ctx.beginPath()
     for [x1, y1, x2, y2] in @walls
-      ctx.moveTo(x1, y1)
-      ctx.lineTo(x2, y2)
+      ctx.moveTo(ox + x1, oy + y1)
+      ctx.lineTo(ox + x2, oy + y2)
     ctx.stroke()
 

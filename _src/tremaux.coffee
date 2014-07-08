@@ -1,8 +1,8 @@
 class window.Tremaux extends RenderedMaze
   BACKTRACKED: 1 << 8
 
-  constructor: (id, width, height) ->
-    super id, width, height, (maze) =>
+  constructor: (id, width, height, seed) ->
+    super id, width, height, {seed}, (maze) =>
       maze.thin 50
       [pathLength, @startX, @startY, @endX, @endY] = maze.findMostDistantPoints()
 
@@ -47,7 +47,7 @@ class window.Tremaux extends RenderedMaze
       window.clearInterval(@timer)
       @timer = null
 
-    @render()
+    @rerender()
 
   renderBackground: (ctx) ->
     super ctx
@@ -71,7 +71,7 @@ window.generateTremaux = (id) ->
     window.clearInterval(canvas.tremaux.timer)
 
   tremaux = new Tremaux id, 20, 20
-  tremaux.render()
+  tremaux.rerender()
 
   canvas.tremaux = tremaux
   return

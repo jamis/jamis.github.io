@@ -2,6 +2,7 @@
 layout: post
 title: The Second Great Secret
 chapter: Chapter 4
+words: 3587
 blurb: >
   Wherein Basil gives Fabian a pep talk, reveals the Second Great Secret
   of Wizardry, and subsequently shows how a maze is equivalent to a tree.

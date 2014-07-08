@@ -2,15 +2,17 @@
 layout: post
 title: Need, Speed, and Greed
 chapter: Chapter 5
+words: 4833
 blurb: >
   In which we witness the negotiation of an unusual contract. Fabian learns
   the significance of a certain kind of sandwich, as well as a new use for
   ukuleles. The deceptive nature of greediness is demonstrated.
 previous_chapter: /2014/06/23/second-great-secret
+next_chapter: /2014/07/08/following-a-star
 scripts:
   - /js/greedy-minified.js
 script: |
-  window.onload = function() { generateGreedy("greedy-canvas", 11); };
+  window.onload = function() { generateGreedy("greedy-canvas", 15, { longestPath: true , thin: 35, seed: 2147992 }); };
 ---
 
 Fabian huddled in the darkness, hyperventilating through his fist as he tried to calm himself down. He'd found a small alcove after running through the dungeons for what felt like forever. Hopefully, though, he'd not been on the run for more than fifteen minutes. Last time he'd escaped---five years ago---the guard had helped him leave through the front door. It was a different guard now (and Fabian felt a twinge of guilt wondering about the fate of that first kind soul), so the front doors were kind of ruled out this time. Basil and he had both assumed there would be a rear exit somewhere (even dungeons had fire codes, you know) but they hadn't considered that the dungeon might not be exactly small, nor well-lit.
@@ -353,11 +355,11 @@ Fabian leaned forward and went to work. Each time he'd finish one, Nigel would r
   <div>
     <div class="options">
       Size:
-      <a href="javascript:generateGreedy('greedy-canvas', 11)" class="option">small</a>
-      <a href="javascript:generateGreedy('greedy-canvas', 15)" class="option">medium</a>
-      <a href="javascript:generateGreedy('greedy-canvas', 21)" class="option">large</a>
-      <a href="javascript:generateGreedy('greedy-canvas', 29)" class="option">xl</a>
-      <a href="javascript:generateGreedy('greedy-canvas', 39)" class="option">xxl</a>
+      <a href="javascript:generateGreedy('greedy-canvas', 11, {longestPath: true, thin: 35})" class="option">small</a>
+      <a href="javascript:generateGreedy('greedy-canvas', 15, {longestPath: true, thin: 35})" class="option">medium</a>
+      <a href="javascript:generateGreedy('greedy-canvas', 21, {longestPath: true, thin: 35})" class="option">large</a>
+      <a href="javascript:generateGreedy('greedy-canvas', 29, {longestPath: true, thin: 35})" class="option">xl</a>
+      <a href="javascript:generateGreedy('greedy-canvas', 39, {longestPath: true, thin: 35})" class="option">xxl</a>
     </div>
     <canvas id="greedy-canvas" width="400" height="400"></canvas>
     <a href="javascript:runGreedy('greedy-canvas', 50)" class="action">solve</a>

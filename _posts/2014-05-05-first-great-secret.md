@@ -2,6 +2,7 @@
 layout: post
 title: The First Great Secret
 chapter: Chapter 1
+words: 3539
 blurb: |
   Wherein Fabian learns that algorithms are like dances, and mazes are
   like circles. Basil introduces the basics of maze navigation,

@@ -2,6 +2,7 @@
 layout: post
 title: Demons in the Details
 chapter: Chapter 2
+words: 3809
 blurb: >
   Fabian confesses to a youthful dalliance, discovers how flooding a
   maze is like Dijkstra's algorithm, and faces at least two terrifying

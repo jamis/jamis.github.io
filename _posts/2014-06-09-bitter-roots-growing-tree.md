@@ -2,6 +2,7 @@
 layout: post
 title: Bitter Roots, Growing Tree
 chapter: Chapter 3
+words: 4579
 blurb: >
   Basil relaxes in the drawing room and tries to learn some Curmudgeon family
   history. He meets Fergus' assistant. A comparison of maze

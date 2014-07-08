@@ -1,7 +1,7 @@
 class window.Dijkstra extends RenderedMaze
 
-  constructor: (id, width, height) ->
-    super id, width, height, (maze) =>
+  constructor: (id, width, height, seed) ->
+    super id, width, height, {seed}, (maze) =>
       @maze.thin 50
       [@startX, @startY] = [width // 2, height // 2]
       [distances, @longestPath, [x, y]] = @maze.findDistances(@startX, @startY)
@@ -19,7 +19,7 @@ class window.Dijkstra extends RenderedMaze
       delete @timer
 
     @resetState()
-    @render()
+    @rerender()
 
   run: (delay) ->
     unless @timer?
@@ -46,7 +46,7 @@ class window.Dijkstra extends RenderedMaze
           newFrontier.push [nx, ny]
 
     @frontier = newFrontier
-    @render()
+    @rerender()
     true
 
   renderBackground: (ctx) ->
@@ -71,7 +71,7 @@ class window.Dijkstra extends RenderedMaze
 window.generateDijkstra = (id, size) ->
   canvas = document.getElementById id
   dijkstra = new Dijkstra id, size, size
-  dijkstra.render()
+  dijkstra.rerender()
   canvas.dijkstra = dijkstra
   return
 
