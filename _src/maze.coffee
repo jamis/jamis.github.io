@@ -6,7 +6,9 @@ class Maze
 
   constructor: (@width, @height, options) ->
     options ?= {}
-    @grid = ((0 for x in [1..@width]) for y in [1..@height])
+
+    chooseElement = options.chooseElement ? @chooseElement
+    @chooseElement = chooseElement
 
     @rand = new MersenneTwister(options.seed)
     @rand.randomElement = (list) -> list[@nextInteger(list.length)]
@@ -18,6 +20,10 @@ class Maze
         i--
       list
 
+    @regenerate()
+
+  regenerate: ->
+    @grid = ((0 for x in [1..@width]) for y in [1..@height])
     @generate()
 
   mark: (fromX, fromY, bits) ->
@@ -49,14 +55,18 @@ class Maze
           when @S then @N
       directions: [ @N, @S, @E, @W ]
 
+  chooseElement: (rand, count) ->
+    if rand.nextBoolean()
+      rand.nextInteger(count)
+    else
+      count - 1
+
   generate: ->
     { dx, dy, opposite, directions } = @utilities()
 
     stack = [[@rand.nextInteger(@width), @rand.nextInteger(@height)]]
     while stack.length > 0
-      #index = stack.length - 1
-      #index = @rand.nextInteger(stack.length)
-      index = if @rand.nextBoolean() then @rand.nextInteger(stack.length) else stack.length-1
+      index = @chooseElement(@rand, stack.length)
       [x, y] = stack[index]
 
       found = false

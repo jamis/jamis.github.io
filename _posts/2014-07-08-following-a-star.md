@@ -7,6 +7,7 @@ blurb: >
   Fabian eats a secret message, discovers an old friend,
   attempts another escape, and uncovers a dark secret.
 previous_chapter: /2014/06/30/need-greed-speed
+next_chapter: /2014/07/15/counting-the-cost
 scripts:
   - /js/searches-minified.js
   - /js/astar-minified.js

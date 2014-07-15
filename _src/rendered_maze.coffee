@@ -71,6 +71,9 @@ class window.RenderedMaze
     @clear()
     @render()
 
+  setWallColor: (ctx) ->
+    ctx.strokeStyle = "black"
+
   render: (cookie) ->
     ctx = @canvas.getContext "2d"
 
@@ -87,6 +90,7 @@ class window.RenderedMaze
       ctx.fillStyle = "green"
       ctx.fillRect(ox + @endCell[0], oy + @endCell[1], @endCell[2], @endCell[3])
 
+    @setWallColor ctx
     ctx.beginPath()
     for [x1, y1, x2, y2] in @walls
       ctx.moveTo(ox + x1, oy + y1)
