@@ -2,11 +2,12 @@
 layout: post
 title: Counting the Cost
 chapter: Chapter 7
-words: 3120
+words: 3131
 blurb: >
   Wherein Fabian learns how to color, and how to count. Later, a chance
   encounter leads him somewhere wholly unexpected.
 previous_chapter: /2014/07/08/following-a-star
+next_chapter: /2014/07/20/thats-cows-for-you
 scripts:
   - /js/colors-minified.js
 script: |
@@ -19,11 +20,11 @@ Fabian sat opposite Nigel in the small cell. It was morning, apparently. No sunl
 
 A guard had interrupted their conversation the day before, arriving to announce through the barred window that two guards were being posted at either end of the hall. They wanted to make sure he did not attempt any further escapes. Nigel, startled, had disappeared in a puff, and Fabian had been so despondent at the news that he hadn't bothered to re-summon the homunculus. He'd simply gone to bed.
 
-The next morning, though, Nigel had been there in the cell. He didn't say anything, and Fabian was still so disheartened by the additional guards that he couldn't bring himself to ask the homunculus any questions. Nigel didn't seem to mind being ignored, though. He was sitting beside the wall, doodling cheerfully in the grime on the floor. *Too* cheerfully. Fabian wanted to throw something at him.
+The next morning, though, Nigel had been there in the cell. He didn't say anything, and Fabian was still so disheartened by the additional guards that he couldn't bring himself to ask him any questions. Nigel didn't seem to mind being ignored, though. He was sitting beside the wall, doodling cheerfully in the grime on the floor. *Too* cheerfully. Fabian wanted to throw something at him.
 
 A sudden flash of light and color startled Fabian, and he realized it had come from Nigel's doodle. He looked over in time to see him rubbing out his drawing and starting again.
 
-He started paying attention, watching as Nigel sketched, and realized he was drawing a *maze*. It was a complex one, large, with many passages. The homunculus hesitated a moment when he noticed Fabian watching, and grinned. With a tap, he somehow made the drawing blossom into vibrant shades of red and purple. It actually glowed a moment in the gloom before fading away, like an afterimage of glancing at the sun. Nigel rubbed it out and began drawing another one.
+He started paying attention, watching as Nigel sketched, and realized he was drawing a *maze*. It was a complex one, large, with many passages. The homunculus hesitated a moment when he noticed Fabian watching, and grinned. With a tap, he somehow made the drawing blossom into vibrant shades of red and purple. It actually glowed a moment in the gloom before fading away, like an afterimage from glancing at the sun. Nigel rubbed it out and began drawing another one.
 
 "What are you doing?" Fabian finally asked.
 
@@ -45,7 +46,7 @@ When the color faded away, Nigel sat back and eyed Fabian. "You really want to k
 
 "Sure," Fabian said, sitting back himself and gesturing to the walls of his cell. "Looks like I may be here awhile."
 
-Nigel pointed at what he'd sketched. With the colors gone, it was just a line drawing of a maze again. "It's pretty straight forward, really. I'm just picking a point inside the maze to start from, and running Dijkstra's algorithm from there. That will tell me how far each point in the maze is from that starting point, right?"
+Nigel pointed at what he'd sketched. With the colors gone, it was just a line drawing of a maze again. "It's pretty straightforward, really. I'm just picking a point inside the maze to start from, and running Dijkstra's algorithm from there. That will tell me how far each point in the maze is from that starting point, right?"
 
 Fabian nodded.
 
@@ -61,15 +62,7 @@ He rubbed out the first drawing and drew another good-sized maze on the floor, p
 
 Fabian nodded appreciatively. "Do another one!"
 
-<div id="colors-demo" class="figure">
-  <div>
-    <canvas id="colors-canvas" width="400" height="400"></canvas>
-  </div>
-  <p class="caption">
-    <strong>Tap</strong> the maze anywhere to flood it with color.<br />
-    <strong>Tap it again</strong> to clear it and draw a new maze.
-  </p>
-</div>
+{% include demo/colors.html link="Don't let Nigel have all the fun! Come play with an interactive demo, where you can tap and watch mazes flood with color. See what designs are hidden in the passages and dead-ends." %}
 
 Nigel obliged, and in fact wound up making several more. Fabian was entranced. "This is some great art," he said when Nigel was finished.
 
@@ -199,7 +192,7 @@ Nigel sighed. "You were saying?"
 
 "Right," Fabian said, getting up. "That was...convenient." He moved quietly to the door and peeked out the barred window, but could see nothing there. Wincing at the noisy hinges, he pushed the door open wider and looked up and down the hall.
 
-A guard lay in an untidy heap at either end. No one else could be seen.
+A guard lay in an untidy heap at either end. One groaned briefly, but remained still. No one else could be seen.
 
 {% include illustration.html align="left" width="400" height="400" image="007-guards.jpg" alt="The way out" caption='No one else could be seen' %}
 
@@ -239,9 +232,9 @@ The two were moving abreast of the alcove, deep in their conversation. Fabian ma
 
 {% include illustration.html align="right" width="400" height="400" image="007-basil-monsanto.jpg" alt="Fabian reveals himself" caption='They looked up in surprise' %}
 
-"Fabian?" Basil seemed shocked to see him there. "How did you---" He glanced at Monsanto. "I mean, ah, they released you, did they?"
+"Fabian?" Basil seemed shocked to see him there, his mustaches quivering in an absurd mirror of his own surprise. "How did you---" He glanced at Monsanto. "I mean, ah, they released you, did they?"
 
-Fabian shook his head, realizing by the look on his master's face that Basil wasn't behind his escape. He had mixed emotions at the revelation. "In a sense, sir," he said. "Though we should probably not tell Fergus about it."
+Fabian realized by the look on his master's face that Basil wasn't behind his escape. He had mixed emotions at the revelation. "In a sense, sir," he said. "Though we should probably not tell Fergus about it."
 
 Basil shook his head in confusion, but shrugged. "I should go get my things. I can meet you outside the castle in a few minutes." He glanced at Monsanto. "But..."
 
@@ -299,7 +292,7 @@ The screams had stopped.
 
 He heard the door behind him close, and he spun around to find Monsanto removing a key from the lock. "What are you doing?" he asked, confused.
 
-"Saving Curmudgeon Castle," Monsanto said. "I'm sorry, old friend."
+"Following orders," Monsanto said. "I'm sorry, old friend."
 
 Before Fabian could fully process Monsanto's meaning, another voice spoke. A woman's voice, shockingly familiar and startlingly out of place.
 

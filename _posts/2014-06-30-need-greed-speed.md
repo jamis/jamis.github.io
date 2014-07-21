@@ -2,7 +2,7 @@
 layout: post
 title: Need, Speed, and Greed
 chapter: Chapter 5
-words: 4833
+words: 4830
 blurb: >
   In which we witness the negotiation of an unusual contract. Fabian learns
   the significance of a certain kind of sandwich, as well as a new use for
@@ -19,11 +19,11 @@ Fabian huddled in the darkness, hyperventilating through his fist as he tried to
 
 {% include illustration.html align="right" width="400" height="400" image="005-fabian-blinks.gif" alt="Fabian in the dark" caption='Fabian huddled in the darkness...' %}
 
-Fabian cursed between gasps. He had no idea which way he was heading. Even had the halls been lit, he didn't think he'd have much luck. No wonder his parents had never let the Curmudgeon boys play down here. They'd have gotten lost for sure. 
+Fabian cursed between gasps. He had no idea which way he was heading. Even had the halls been lit, he didn't think he'd have much luck. No wonder his parents had never let the Curmudgeon boys play down here. They'd have never seen them again.
 
-His breathing slowed, and he began listening for footsteps, shouts, any sign of pursuit. Nothing. He began to think that "phase one" of the plan might just have succeeded. That is, as long as being hopelessly turned around in the dark could qualify as any kind of success.
+His breathing slowed, and he began listening for footsteps, shouts, any sign of pursuit. Nothing. He began to think that "phase one" of the plan might just have succeeded. That is, if being hopelessly turned around in the dark could qualify as any kind of success.
 
-He told himself he'd have some very earnest words to say to Basil the next time he saw him. Basil's plan (such as it was) involved "accidentally" leaving the cell door unlocked, and Fabian subsequently finding his way out. They intended to meet up just outside the mazes in a few days. Knowing that Fabian wouldn't be able to escape the same way he had before, Basil had started to explain how to summon Nigel---the diminutive demon with a penchant for path-finding---to escort him through the dungeons. He said they should at least get a new contract hammered out.
+He told himself he'd have some very earnest words to say to Basil the next time he saw him. Basil's plan (such as it was) had involved "accidentally" leaving the cell door unlocked, and Fabian subsequently finding his way out. They intended to meet up just outside the mazes in a few days. Knowing that Fabian wouldn't be able to escape the same way he had before, Basil had started to explain how to summon Nigel---the diminutive demon with a penchant for path-finding---to escort him through the dungeons. He said they should at least get a new contract hammered out.
 
 Only just at that moment the guard had returned, wondering what was keeping the wizard. Basil had tossed a few surprisingly inventive insults at Fabian to reinforce his original reason for visiting, and made his exit, leaving Fabian alone in his cell once more.
 
@@ -51,13 +51,13 @@ There was a *boom*, a flash of red light that felt like it was going to sear his
 
 All he heard, though, was a voice. A familiar, deep, grating voice, which boomed to beat the thunder and seemed to fill the entire dungeon with echoes.
 
-"Who summons me? Answer, mortal, or feel my wrath!"
+"WHO SUMMONS ME? ANSWER, MORTAL, OR FEEL MY WRATH!"
 
 "Shh!" Fabian hissed desperately. "It's me! Fabian! Hush, please, or you'll give me away!"
 
-"Fabian?" boomed the voice again, and then, more quietly, "ah, I mean *ahem* Fabian? That apprentice of Basil's? Ah, hmm." A pause, then, quieter still: "Tell me more about why we have to be quiet? And, for that matter...why is it so *dark*, here? This is blacker than the eighth heart of Hocthhhpu." The last was pronounced messily.
+"FABIAN?" boomed the voice again, and then, more quietly, "ah, I mean *ahem* Fabian? That apprentice of Basil's? Ah, hmm." A pause, then, quieter still: "Tell me more about why we have to be quiet? And, for that matter...why is it so *dark*, here? This is blacker than the eighth heart of Hocthhhpu." The last was pronounced messily.
 
-Fabian, unsure he even wanted to know what "Hocthhhpu" was, shook his head in bewilderment. "I'm lost," he explained, "in the dungeons under Curmudgeon castle. I'm trying to escape, you see. Only, I'm lost...as, I guess, I just said."
+Fabian, unsure he even wanted to know what "Hocthhhpu" was, shook his head in bewilderment. "I'm lost," he explained, "in the dungeons under Curmudgeon castle. I'm trying to escape, you see. Only, I'm lost...as, I guess, I said."
 
 There was a long pause before Nigel answered. "Where's Basil?"
 
@@ -89,13 +89,13 @@ Nigel sighed and reached out a hand. "Give me the papers. I'll summarize."
 
 Fabian gratefully handed the forms back.
 
-Nigel turned to the first page and ran a finger down it as he scanned it. "Blah, blah, blah...whereas the Summoner has particular need...yadda, yadda, yadda...the Summoned shall be obliged to perform as requested... It's all pretty standard boilerplate until you reach article two...which says...ah! Yes. The relevant bits mostly involve payment for services rendered. Here." He jabbed the paper with a tiny finger. "Paragraph two. 'The Summoned shall receive remuneration, previously and mutually approved, for services rendered, two percent, net 30.' We just need to agree on what that 'remuneration' ought to be." He glanced up at Fabian and blinked. "What do you propose?"
+Nigel turned to the first page and ran a finger down as he scanned it. "Blah, blah, blah...whereas the Summoner has particular need...yadda, yadda, yadda...the Summoned shall be obliged to perform as requested... It's all pretty standard boilerplate until you reach article two...which says...ah! Yes. The relevant bits mostly involve payment for services rendered. Here." He jabbed the paper with a tiny finger. "Paragraph two. 'The Summoned shall receive remuneration, previously and mutually approved, for services rendered, two percent, net 30.' We just need to agree on what that 'remuneration' ought to be." He glanced up at Fabian and blinked. "What do you propose?"
 
 Fabian looked blankly back. "Who, me?"
 
 Nigel grunted. "Well, who else? Really, where did Basil *find* you? Yes, you. What do you propose to pay me for the work I do?" He tapped his fingers on his knee impatiently.
 
-Fabian took a deep breath. "Ah, well." He wondered what demons typically expected in payment, but suddenly feared to ask. He cast about, trying to think of what he might possibly have access to back at Basil's house on the hill. Cleaning supplies? He had those in spades, but he doubted Nigel would appreciate good squeegee as much as he ought to. Baked goods? That somehow felt too friendly, more like what you'd do for a sick neighbor than for a fiend you'd just summoned.
+Fabian took a deep breath. "Ah, well." He wondered what demons typically expected in payment, but suddenly feared to ask. He cast about, trying to think of what he might possibly have access to back at Basil's house on the hill. Cleaning supplies? He had those in spades, but he doubted Nigel would appreciate a good squeegee as much as he ought to. Baked goods? That somehow felt too friendly, more like what you'd do for a sick neighbor than for a fiend you'd just summoned.
 
 Something... He remembered the pastures near the town. "Maybe...a...goat?"
 
@@ -139,7 +139,7 @@ The eager look in Nigel's eye made Fabian uncomfortable for some reason, but he 
 
 Nigel considered Fabian searchingly for a long moment, and then nodded. "All right." He grinned and rubbed his hands together. "For services rendered, I will require..."
 
-He raised an eyebrow and paused dramatically. Fabian began to seriously wonder just where this had all started to go wrong.
+He raised an eyebrow and paused dramatically. Fabian began to wonder seriously just where this had all started to go wrong.
 
 "I will require," Nigel repeated, "one (1) Monte Cristo sandwich, made with still-warm whole wheat bread you've baked yourself. It must use the finest doux Gruyère---certified organic!---with a robust Dijon mustard and fresh raspberry jam. And it must be battered with two corn-fed free-range eggs, each gathered on a moonless night using nothing but your wits, your bare hands, and a borrowed ukulele."
 
@@ -201,7 +201,7 @@ The homunculus sighed. "Fine. Greedy it is. I'll be right back."
 
 True to his word, Nigel returned shortly. *Very* shortly. So shortly, in fact, that Fabian at first wondered if the algorithm had even worked, but Nigel assured him that it had. He'd found a path.
 
-They meandered through the darkened dungeon for a good ten minutes before finally reaching a small door. It opened reluctantly on ancient hinges and revealed a rickety staircase that spiraled upward into the gloom. Nigel took them several landings before finally passing through a door into one of the upper levels of the keep. From there they moved through a little-used wing, past mothballed guest rooms, dining rooms, and even an entire ballroom that Fabian scarcely remembered. The walls were adorned with timeworn portraits of Fabian's ancestors, most of whom---judging by their expressions---looked to be suffering from acute indigestion. Then, down a flight of stairs, and up another flight of stairs, and through a series of narrow hallways before descending yet another flight of stairs.
+They meandered through the darkened dungeon for a good ten minutes before finally reaching a small door. It opened reluctantly---and loudly---on ancient hinges and revealed a rickety staircase that spiraled upward into the gloom. Nigel took them several landings before finally passing through a door into one of the upper levels of the keep. From there they moved through a little-used wing, past mothballed guest rooms, dining rooms, and even an entire ballroom that Fabian scarcely remembered. The walls were adorned with timeworn portraits of Fabian's ancestors, most of whom---judging by their expressions---looked to be suffering from acute indigestion. Then, down a flight of stairs, and up a flight of stairs, and through a series of narrow hallways before descending yet another flight of stairs.
 
 {% include illustration.html align="left" width="400" height="427" image="005-curmudgeon-portraits.jpg" alt="Curmudgeon family portraits" caption='They looked to be suffering from indigestion' %}
 
@@ -305,7 +305,7 @@ Fabian nodded contritely. "Yes, I will."
 
 Fabian nodded again. "Right. Like water flooding the maze. You split yourself at each intersection and stop when one of you reaches the exit."
 
-Nigel smiled. "Ah, so you *do* pay attention! Such a *good* little apprentice you are." He mimed patting Fabian on the head. "So, the greedy best-first search can be thought of like that, too, but instead of each copy of me searching the maze at once, only the copy that is currently *nearest to the exit* is actually moving."
+Nigel smiled. "Ah, so you *do* pay attention! Such a *good* little apprentice you are." He mimed patting Fabian on the head. "So, the greedy best-first search can be seen like that, too, but instead of only moving the copy that has currently moved the *least*, you move the copy that is currently *nearest to the exit*."
 
 Fabian looked confused. "I don't follow."
 
@@ -315,7 +315,7 @@ Fabian looked confused. "I don't follow."
 
 {% include figure.html width="300" height="300" image="005-greedy-02.jpg" alt="A simple maze" %}
 
-"Right. So once I reach the intersection, I split myself---just like I do with Dijkstra's. Except this time only *one* of me keeps walking. The others just cool their heels and dream of sandwiches. For now. The question is: which one of me keeps walking?" He pointed at the two locations where his doppelgangers were ostensibly waiting. "Easy. I choose the one that is closest to the exit---as the griffin flies---and that's the lucky clone."
+"Right. So once I reach the intersection, I split myself---just like I do with Dijkstra's. Except this time all but one of me just cools their heels and dreams of sandwiches. For now. The question is: which one of me keeps walking?" He pointed at the two locations where his doppelgangers were ostensibly waiting. "Easy. I choose the one that is closest to the exit---as the bat flies---and that's the lucky clone."
 
 Fabian tentatively nodded. "...Okay."
 
@@ -351,29 +351,7 @@ Fabian's eyes widened. "Ah! I see! So, the algorithm runs quickly, because it do
 
 Fabian leaned forward and went to work. Each time he'd finish one, Nigel would rub it out and give him another, then another, and another.
 
-<div id="greedy-demo" class="figure">
-  <div>
-    <div class="options">
-      Size:
-      <a href="javascript:generateGreedy('greedy-canvas', 11, {longestPath: true, thin: 35})" class="option">small</a>
-      <a href="javascript:generateGreedy('greedy-canvas', 15, {longestPath: true, thin: 35})" class="option">medium</a>
-      <a href="javascript:generateGreedy('greedy-canvas', 21, {longestPath: true, thin: 35})" class="option">large</a>
-      <a href="javascript:generateGreedy('greedy-canvas', 29, {longestPath: true, thin: 35})" class="option">xl</a>
-      <a href="javascript:generateGreedy('greedy-canvas', 39, {longestPath: true, thin: 35})" class="option">xxl</a>
-    </div>
-    <canvas id="greedy-canvas" width="400" height="400"></canvas>
-    <a href="javascript:runGreedy('greedy-canvas', 50)" class="action">solve</a>
-    <a href="javascript:resetGreedy('greedy-canvas')" class="action">reset</a>
-  </div>
-  <p class="caption">
-    Tap the "solve" button to watch Fabian solve the maze.<br />
-    The <span style="color:#955;font-weight:bold;">red</span> square is the starting point.<br />
-    The <span style="color:#595;font-weight:bold;">green</span> square is the destination.</br>
-    The <span style="color:#999;font-weight:bold;">gray</span> locations were considered but discarded.<br />
-    The <span style="color:#995;font-weight:bold;">yellow</span> path is a shortest path to the destination.<br />
-    The <span style="color:#595;font-weight:bold;">green</span> path is the current solution.
-  </p>
-</div>
+{% include demo/greedy.html link="Want to watch Fabian's progress? Come see a live demonstration of the greedy algorithm solving mazes." %}
 
 Finally, Fabian sat back and leaned his head against the wall. He sighed. "Alright, I'll say it. 'I wish I'd listened the first time.'"
 
@@ -381,4 +359,4 @@ Nigel laughed. "Ah, the sweet, succulent flavor of crow! Enjoying it, are you? I
 
 Fabian smiled and shook his head. "Anyway, how do you improve on this? How do you get something that runs quickly, and still gives you a decent path to the exit?"
 
-"Well," Nigel said, settling comfortably against the wall with a wink. "Sneak out of this little box again, and I just might show you."
+"Well," Nigel said, settling comfortably against the wall with a wink. "Sneak out of this little box again, and I might just show you."

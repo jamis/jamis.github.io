@@ -2,13 +2,13 @@
 layout: post
 title: A New Adventure
 chapter: Prologue
-words: 823
+words: 827
 blurb: >
   In which our heroes are introduced and walk voluntarily into a hedge
   maze of unknown dimension. Also, a bit of foreshadowing which may or may
   not involve meat processing.
 next_chapter: /2014/05/05/first-great-secret
-audio:
+audio-old:
   url: http://jamisbuck.org/basil-fabian/01-prologue.mp3
   length: 1742922
   duration: 6:38
@@ -30,7 +30,7 @@ Fabian had gone pale when the hedge was first sighted, and he'd not improved in 
 
 Basil finally noticed his companion's discomfort. "I say, Fabian, you don't look at all well. Is something the matter?"
 
-Fabian took a deep breath. "Actually sir," he said in a shaky voice. "I think you're very right. I'm---not well. Maybe we should go back to that town we passed this morning and see if we could find somewhere for me to have a bit of a lie down. We could---"
+Fabian took a deep breath. "Actually sir," he said in a shaky voice. "I think you're very right. I'm...not well. Maybe we should go back to that town we passed this morning and see if we could find somewhere for me to have a bit of a lie down. We could---"
 
 "Go back?" Basil's eyebrows seemed to crawl up his forehead like bushy white caterpillars. "That village was miles ago. My legs are positively aching. We're not that far from Fergus' castle, and I've been counting on lodging with him for the night. I sent ahead, in fact. He should be expecting us."
 
@@ -42,9 +42,9 @@ Fabian put a hand to his head and cleared his throat. "So, this short-cut you me
 
 "Yes, of course," Basil said, absently, peering carefully through the gate.
 
-Fabian groaned. "Sir, you put me in a most difficult situation. Perhaps---perhaps you should go on ahead. I'll just circle back to that village and---"
+Fabian groaned. "Sir, you put me in a most difficult situation. Perhaps...perhaps you should go on ahead. I'll just circle back to that village and---"
 
-Basil didn't seem to be listening. "You know," he said. "I think that's a *maze* that Fergus has built back there." He stepped up to the gate and looked more closely. "The path definitely seems to branch just ahead---"
+Basil didn't seem to be listening. "You know," he said. "I think that's a *maze* that Fergus has built back there." He craned his neck to get a clearer view through the decorative metal bars. "The path definitely seems to branch just ahead---"
 
 "Sir," Fabian said, more loudly. "I said, perhaps you should go on ahead. I'll meet you back at your laboratory in a few days---"
 
@@ -52,7 +52,7 @@ Basil didn't seem to be listening. "You know," he said. "I think that's a *maze*
 
 Fabian looked progressively more panicky as his master spoke. "Me? Wizardry? Ah, no, thank you, sir, but surely you remember the last time---"
 
-"I'll not hear any more about this, Fabian," Basil said, finally turning to his manservant. "The last time---well, accidents do happen. What happened was...regretful."
+"I'll not hear any more about this, Fabian," Basil said, finally turning to his manservant. "The last time...well, accidents do happen. What happened was...regretful."
 
 "'Regretful?'" Fabian said, exasperated. "I turned myself into a newt!"
 

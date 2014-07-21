@@ -1,0 +1,21 @@
+---
+layout: default
+scripts:
+  - /js/tremaux-minified.js
+script: |
+  window.onload = function() { generateTremaux("tremaux"); };
+---
+
+<h1>Tremaux's Algorithm</h1>
+<h2 class="subtitle">From <a href="{{ site.url }}/2014/05/12/tremauxs-algorithm.html">Interlude, "Tremaux's Algorithm"</a></h2>
+
+<div class="blurb">
+  <p>After describing how Tremaux's algorithm works, Basil obliges the narrator
+  and provides a more "dynamic" demonstration.</p>
+</div>
+
+<div class="post">
+
+{% include demo/tremaux.html %}
+
+</div>

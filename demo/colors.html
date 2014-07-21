@@ -1,0 +1,23 @@
+---
+layout: default
+scripts:
+  - /js/colors-minified.js
+script: |
+  window.onload = function() { generateColors("colors-canvas", 70); };
+---
+
+<h1>Coloring with Dijkstra's Algorithm</h1>
+<h2 class="subtitle">From <a href="{{ site.url }}/2014/07/15/counting-the-cost.html">Chapter 7, "Counting the Cost"</a></h2>
+
+<div class="blurb">
+  <p>Fabian&mdash;in a blue funk and desparing of ever leaving the dungeon&mdash;is
+  distracted by Nigel playing with mazes and colors on the floor of the cell.
+  Nigel demonstrates, showing what happens when you color a maze based on each
+  cell's distance from some point.</p>
+</div>
+
+<div class="post">
+
+{% include demo/colors.html %}
+
+</div>

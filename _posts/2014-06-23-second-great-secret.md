@@ -2,7 +2,7 @@
 layout: post
 title: The Second Great Secret
 chapter: Chapter 4
-words: 3587
+words: 3622
 blurb: >
   Wherein Basil gives Fabian a pep talk, reveals the Second Great Secret
   of Wizardry, and subsequently shows how a maze is equivalent to a tree.
@@ -125,7 +125,7 @@ Fabian made no response.
 
 "Anyway," Basil said. "Something to think about, I guess." He sighed, grimacing at the smell, and looked around the cell. His gaze settled on the wall beside the door, and he raised an eyebrow. "What's this?" he asked, gesturing at the wall.
 
-Fabian glanced up. "Oh," he said. "Just...something I tinkered on while taking a break from practicing that illusion spell."
+Fabian glanced up. "Oh," he said. "Just...something I tinkered on while taking a break from practicing that spell."
 
 Basil got up and walked to the wall. He ran his fingers over the joints where the mortar held the bricks together. Beginning near the floor, some of the joints had been recently cleaned, dirt and grime painstakingly prised out, resulting in a kind of branching path that moved vertically up the wall.
 
@@ -189,7 +189,7 @@ Fabian nodded again. "I understand, sir."
 
 "Excellent. Excellent! Now, back to what I was saying before, about your tree being the same as a maze, and vice versa. Can you imagine a way to preserve all the connections in your tree, but move the vertices around? To change its shape, without changing how each vertex is connected to its neighbors?"
 
-Fabian thought for a moment, and then smiled. "I think so, sir. Yes. Here." He pointed at one of the junctions. "If this intersection were to bend *down* instead of *up*, this whole branch would follow suit." He gestured at one half of his tree.
+Fabian thought for a moment, and then smiled. "I think so, sir. Yes. Here." He stood up and walked over to the wall, where he pointed at one of the junctions. "If this intersection were to bend *down* instead of *up*, this whole branch would follow suit." He gestured at one half of his tree.
 
 "Very good, Fabian. Very good. Yes, that's the idea. Now, I'm going to show you a little trick." He pulled his pencil from his lab coat and held it above one of the junctions. "Watch this."
 
@@ -197,19 +197,7 @@ Fabian, for once, forgot to be nervous about the pencil, and looked eagerly at w
 
 The tree was now most definitely a maze, complete with twists and turns and dead-ends."Watch, again," Basil said, grinning, and once again tapped a vertex in the maze and *dragged* it back down the bottom. Fabian watched closely, noting how every vertex remained attached to its same neighbors, even as the entire maze seemed to reshape itself back into a tree. "Just like that! From tree, to maze, and back again. They're the same thing!"
 
-<div id="transform-demo" class="figure">
-  <div>
-    <canvas id="transform-canvas" width="400" height="400"></canvas>
-    <a href="javascript:animateTree('transform-canvas', 1000)" class="action">switch</a>
-    <a href="javascript:resetTree('transform-canvas')" class="action">reset</a>
-  </div>
-  <p class="caption">
-    Tap the "switch" button to convert between tree and maze!<br />
-    Tap a vertex to change the selection.<br />
-    Tap the selected vertex in "maze view" to change the root.<br />
-    Darker squares are further from the "root" than lighter squares.
-  </p>
-</div>
+{% include demo/transform.html link="Watch and interact with Basil's demonstration! See how a tree becomes a maze, and vice versa." %}
 
 Fabian grinned, too. "Yes, sir! I see it, now!"
 
@@ -237,7 +225,7 @@ Fabian exhaled noisily and ran a hand through his tousled hair. He finally nodde
 
 "Ah, yes," Basil nodded. "'She who must not be named.'"
 
-Fabian rolled his eyes. "Very good, sir. That never gets old." He shook his head. "Anyway, I was trying to find some way to get her attention, so I, um...I kind of borrowed Fergus' thesaurus and wrote a love note to her."
+Fabian rolled his eyes. "Very good, sir. That never gets old." He shook his head. "Anyway, I was trying to find some way to get her attention. I spent a lot of time with her, even went dancing"---Fabian blushed furiously at the memory---"but I wanted to do something really memorable, so I, um...I kind of borrowed Fergus' thesaurus and wrote a love note to her."
 
 "And he got upset about *that*?"
 
@@ -251,7 +239,7 @@ Fabian shook his head. "I know. I know! It makes no sense, now, but after writin
 
 Basil nodded. "Well, yes. Love makes us all a bit dotty at the best of times. So you signed this love note as your brother. What then?"
 
-"Well, the next thing I know, Anathema shows up at the door, asking to speak to Fergus, and suddenly I'm being thrown into the dungeon! Fergus wouldn't speak to me. He barely fed me! I was down there for two or three weeks before I finally managed to talk my way past my guard and escape. Only, I couldn't just escape, could I? Because suddenly there were all these mazes, now, where the pastures used to be. I wandered for another few days trying to find my way out. And once I got out, I just wandered town to town doing what I could to find food and shelter---"
+"Well, the next thing I know, Anathema shows up at the door, asking to speak to Fergus, and suddenly I'm being thrown into the dungeon! Fergus wouldn't speak to me. He barely fed me! I was down there for two or three weeks before the captain of the guard took pity on me and helped me escape. Only, I couldn't just escape, could I? Because suddenly there were all these mazes, now, where the pastures used to be. I wandered for another few days trying to find my way out. And once I got out, I just wandered town to town doing what I could to find food and shelter---"
 
 "And making the good people of a certain village quite angry with you in the process, as I recall."
 

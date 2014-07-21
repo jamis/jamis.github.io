@@ -2,7 +2,7 @@
 layout: post
 title: Following a Star
 chapter: Chapter 6
-words: 3633
+words: 3636
 blurb: >
   Fabian eats a secret message, discovers an old friend,
   attempts another escape, and uncovers a dark secret.
@@ -102,7 +102,7 @@ Nigel harrumphed. "It's in my contract," he said. "Article two, paragraph five."
 
 Fabian sighed. "Whatever. Fine. Anyway, you said if I escaped from my cell again, you'd show me another way to find a decent path out of here."
 
-A small light blossomed around Nigel. He still seemed vaguely put-out, but he looked around and nodded. "Yes, and you do appear to be out of that lovely little box they put you in. Fine. Allow me to introduce you to my good friend, 'A star'".
+A small light blossomed around Nigel. He still seemed vaguely put-out, but he looked around and nodded. "Yes, and you do appear to be out of that lovely little box they put you in. Fine. Allow me to introduce you to my good friend, 'A-star'".
 
 Fabian raised an eyebrow skeptically. "You're going to show me a star?"
 
@@ -190,7 +190,7 @@ Fabian blushed.
 
 {% include figure.html width="300" height="272" image="006-astar-05.jpg" alt="A*: Step 5" %}
 
-"Wins." He circled one of the passages and tapped it with his finger.
+"Wins." He circled one of the clones and tapped it with his finger.
 
 {% include figure.html width="300" height="272" image="006-astar-06.jpg" alt="A*: Step 6" %}
 
@@ -232,19 +232,7 @@ Fabian shook his head. "I might need to take your word for it. I'm having a hard
 
 Nigel reached another landing and glanced around. "Here," he said. He drew a quick maze on one of the walls, and then tapped it in two places. "The start---here---and the finish---there." Then he drew a line through the maze, connecting the two locations. "And that's the shortest path between them, for comparison. Now, watch." He tapped it again, and another little line magically began drawing itself in the grime.
 
-<div id="astar-demo" class="figure">
-  <div>
-    <canvas id="astar-canvas" width="400" height="400"></canvas>
-    <a href="javascript:runAStar('astar-canvas', 50)" class="action">solve</a>
-    <a href="javascript:generateAStar('astar-canvas', 20)" class="action">new</a>
-  </div>
-  <p class="caption">
-    Tap the "solve" button to watch the A* algorithm solve the maze.<br />
-    The <span style="color:#955;font-weight:bold;">red</span> square is the starting point.<br />
-    The <span style="color:#595;font-weight:bold;">green</span> square is the destination.<br />
-    The <span style="color:#995;font-weight:bold;">yellow</span> path is a shortest path to the destination.
-  </p>
-</div>
+{% include demo/astar.html link="Nigel's made his demonstration of the A* algorithm available for you to watch, too." %}
 
 Fabian watched, transfixed, as the line seemed to snake around like lightning striking, first pursuing one path, then another, the path getting slightly longer each time but jumping around surprisingly often. Eventually, it reached the finish.
 
@@ -252,19 +240,7 @@ Fabian watched, transfixed, as the line seemed to snake around like lightning st
 
 Nigel nodded. "Yeah. But, you know---" He drew two more copies of the maze. "Try this. Watch how those three algorithms all solve the same maze, at the same time. Maybe it'll help you see how they compare." He tapped the wall again, and the lines began snaking through the mazes in unison. Fabian watched raptly.
 
-<div id="searches-demo" class="figure">
-  <div>
-    <canvas id="searches-canvas" width="400" height="400"></canvas>
-    <a href="javascript:runSearches('searches-canvas', 50)" class="action">solve</a>
-    <a href="javascript:generateSearches('searches-canvas', 20)" class="action">new</a>
-  </div>
-  <p class="caption">
-    Tap the "solve" button to watch the algorithms solve the maze.<br />
-    The <span style="color:#955;font-weight:bold;">red</span> square is the starting point.<br />
-    The <span style="color:#595;font-weight:bold;">green</span> square is the destination.<br />
-    The numbers are the length of the current best path.
-  </p>
-</div>
+{% include demo/searches.html link="This is a demonstration you won't want to miss! Come see what Fabian saw, as these three algorithms run simultaneously." %}
 
 Greedy finished quickly, then A\*, and finally Dijkstra. Fabian nodded in realization. "I think I see," he said. "Greedy basically goes with a single path, trying as few alternatives as possible because it never thinks about how far it's traveled. Dijkstra tries *all* shortest paths---even those that can't possibly be solutions---because it's never looking ahead at all." He pointed at the A\* maze. "But this one---it knows when a path is getting too long, because it can recognize that it has traveled a good distance but still has some way to go before it could possibly reach the exit. So it's able to try more alternatives."
 
@@ -332,7 +308,7 @@ Fabian walked over to one of the tables and looked over the equipment. "I mean, 
 
 Nigel raised an eyebrow. "So?"
 
-Fabian shook his head. "Why would Fergus be involved with *alchemy*? I mean, he's already a *wizard*. He spent five years studying under Orville the Oracular himself. He doesn't need to stoop to...to...*this*." He gestured to include the room and its implements, and grimaced.
+Fabian shook his head. "Why would Fergus be involved with *alchemy*? He's better than that. And besides, he's already a *wizard*. He spent five years studying under Orville the Oracular himself. He doesn't need to stoop to...to...*this*." He gestured to include the room and its implements, and grimaced.
 
 Nigel shrugged. "There's no accounting for taste." He looked around disinterestedly. "Shall we go?"
 

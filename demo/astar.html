@@ -1,0 +1,23 @@
+---
+layout: default
+scripts:
+  - /js/astar-minified.js
+script: |
+  window.onload = function() { generateAStar("astar-canvas", 20, {seed: 2500734}); }
+---
+
+<h1>The A* Algorithm</h1>
+<h2 class="subtitle">From <a href="{{ site.url }}/2014/07/08/following-a-star.html">Chapter 6, "Following a Star"</a></h2>
+
+<div class="blurb">
+  <p>The homunculus Nigel has once again been summoned to
+  lead Fabian out of captivity. As he guides his master from the dungeon, he
+  pauses to demonstrate the technique he used to find their path: the A*
+  algorithm.</p>
+</div>
+
+<div class="post">
+
+  {% include demo/astar.html %}
+
+</div>

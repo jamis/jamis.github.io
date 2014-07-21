@@ -2,14 +2,14 @@
 layout: post
 title: The First Great Secret
 chapter: Chapter 1
-words: 3539
+words: 3550
 blurb: |
   Wherein Fabian learns that algorithms are like dances, and mazes are
   like circles. Basil introduces the basics of maze navigation,
   and reveals the First Great Secret of Wizardry.
 previous_chapter: /2014/04/22/a-new-adventure
 next_chapter: /2014/05/12/tremauxs-algorithm
-audio:
+audio-old:
   url: http://jamisbuck.org/basil-fabian/02-chapter1.mp3
   length: 6527220
   duration: 23:26
@@ -39,7 +39,7 @@ Fabian seemed skeptical. "How lucky for me that you're here to set me straight, 
 
 "Yes, quite." Basil said, and then looked suspiciously at his manservant, eyes narrowed. After a moment, he shook his head dubiously and took a deep breath, blowing out his great, white mustaches. "Let's just see how this unfolds. Go on, then, choose a direction. No more silliness."
 
-Fabian sighed, but nodded. "Very well, then. No more--*ahem*--silliness. In that case, I choose...hmmm. Left." He pointed toward the named passage.
+Fabian sighed, but nodded. "Very well, then. No more---*ahem*---silliness. In that case, I choose...hmmm. Left." He pointed toward the named passage.
 
 Basil nodded wisely. "Ah, left! Lovely!" He stared a moment down the passage to the left and stroked his mustaches, still nodding. "I'm curious why you chose that one."
 
@@ -49,13 +49,13 @@ Basil nodded wisely. "Ah, left! Lovely!" He stared a moment down the passage to 
 
 Fabian paused, glancing down the path to the right. It still looked identical to the other. "Just feeling sinister, I guess, sir."
 
-Basil raised an eyebrow. "You *are* droll today. But I must insist--*why left*?"
+Basil raised an eyebrow. "You *are* droll today. But I must insist. *Why left*?"
 
-Fabian shrugged. "I just chose at random, sir. Both directions seemed equally suitable."
+Fabian shrugged. "I just chose at random, sir. Both directions seemed equally...ah...tempting."
 
 Basil nodded again. "At random, then. And when we arrive at the next branch in the path? What then?"
 
-Fabian frowned, surprised by the question. "I'll admit hadn't thought that far ahead, sir. I suppose I'll just look and see which path seems most--ah--tantalizing." He waggled his fingers expressively.
+Fabian frowned, surprised by the question. "I'll admit hadn't thought that far ahead, sir. I suppose I'll just look and see which path seems most tantalizing." He waggled his fingers expressively.
 
 Basil *tsked* and shook his head, setting his voluminous mustaches waving like foliage in a stiff wind. He pointed a finger dangerously at Fabian. "No, no, no! You've got to have a plan! Without a plan, you're nothing better than a mouse. Worse than a mouse! Here, now. Your first lesson. It's time to introduce you to algorithms."
 
@@ -107,7 +107,7 @@ Basil thought a moment. "All right, put another way: how do you clean the librar
 
 "Such as...?"
 
-"Oh, dusting, shelving books, cleaning the rug, mopping." Fabian stopped a moment, looking thoughtful. "Oh! And removing dirty dishes. And then there was that time I had to wash the food stains out of--"
+"Oh, dusting, shelving books, cleaning the rug, mopping." Fabian stopped a moment, looking thoughtful. "Oh! And removing dirty dishes. And then there was that time I had to wash the food stains out of---"
 
 "Yes, yes, very good. You've made your point. But you've also made mine. Those different tasks form an *algorithm*. When you undertake to clean the library, you break that higher-level task down into smaller tasks which, when combined, have the effect of making the library clean. Divide and conquer! Yes?"
 
@@ -133,19 +133,19 @@ Fabian looked dubiously at Basil, as if he could hear the Capital Letters and fe
 
 "That hardly sounds...wizardly."
 
-"Precisely! That's the *point*, Fabian. Magic is only magic from the *outside*. Once you know how it works, the mystery fades, and all that's left is sweet, sweet comprehension. Understanding. Insight. *Discovery*. You collect the obscure, and from it, distill the obvious."
+"Precisely! That's the *point*, Fabian. Magic is only magic from the *outside*. Once you know how it works, the mystery fades, and all that's left is sweet, sweet comprehension. Understanding! Insight! *Discovery*. You collect the obscure, and from it, distill the obvious."
 
 "I see. And how does one do that, sir? Distill the obvious?"
 
 "Algorithms, my boy!" Basil beamed at his manservant. "Always algorithms! At the most fundamental, you start with a larger task, and then proceed to break it down into smaller tasks. Give it a try. You're in a maze, Fabian. What's the first step to take? What's your plan? What's your *algorithm*?"
 
-Fabian's mind was whirling from all he'd heard. He hardly felt up to tackling this problem at that moment, but his master was not always a patient man. "Well, sir, I'm guessing 'choose a passage at random' isn't one--"
+Fabian's mind was whirling from all he'd heard. He hardly felt up to tackling this problem at the moment, but his master was not always a patient man. "Well, sir, I'm guessing 'choose a passage at random' isn't one---"
 
 "On the contrary," Basil said, smiling eagerly. "That is perhaps the simplest one of them all. Some call it the 'random mouse' algorithm. Any time you have to make a decision, just choose one at random! Simple. But not very effective. In fact, you can't even be sure that such a strategy will ever get you to the exit, since if you're choosing truly at random, you might wind up going back and forth forever!"
 
-"It sounds like choosing wisely instead would be a better option, then, sir." Fabian said as he eyed the two passages again. "What if... Hmm. What if you always choose a path that takes you closer to the exit?"
+"It sounds like choosing *wisely* would be a better option, then, sir." Fabian said as he eyed the two passages again. "What if... Hmm. What if you always choose a path that takes you closer to the exit?"
 
-Basil nodded, pleased. "Better, yes," he said. "That would improve the algorithm, for sure. This kind of improvement--when we add some reasoning to the process--is called a *heuristic*. But it requires some knowledge about the maze, doesn't it? For example, how would you apply that heuristic here?"
+Basil nodded, pleased. "Better, yes," he said. "That would improve the algorithm, for sure. This kind of improvement---when we add some reasoning to the process---is called a *heuristic*. But it requires some knowledge about the maze, doesn't it? For example, how would you apply that heuristic here?"
 
 Fabian paused, looking left and right, and finally shrugged. "I'm...not sure, sir. Moving away from the entrance would seem to be a good first step, but in this case...neither choice clearly moves us further from the entrance than the other." He paused again. "If I may be so bold, sir, perhaps you should just tell me what you suggest. Speaking from experience, we could be here for days if you leave it all to me."
 
@@ -157,7 +157,7 @@ Basil smiled. "That did surprise me, yes. But actually, I was thinking of what c
 
 Fabian was silent.
 
-"You're stuck on that 'random mouse' algorithm," Basil explained. "Your heuristic is merely an incremental improvement to it, but it's not clear how to apply it in every situation. Maybe it's time to try another algorithm entirely."
+"You're stuck on that 'random mouse' algorithm," Basil explained. "Your heuristic is merely an incremental improvement to it, and it's not clear how to apply it in every situation. Maybe it's time to try another algorithm entirely."
 
 Fabian remained silent, but cocked his head as if thinking.
 
@@ -231,7 +231,7 @@ They began walking, then. And walking, and walking, and walking. They followed p
 
 "I did, didn't I?" Fabian said, seeming slightly dazed. "I had no idea it could be so simple."
 
-They paused by the exit, their backs to the hedge, and rested a moment. Basil gestured at the path they'd taken. "That algorithm you used," he said. "It's called 'wall-following'."
+They paused by the exit, sitting with their backs to the hedge, and rested a moment. Basil gestured at the path they'd taken. "That algorithm you used," he said. "It's called 'wall-following'."
 
 "That's...an unexpectedly obvious name, sir."
 
@@ -267,7 +267,7 @@ Basil rolled his eyes. "No songs, Fabian."
 
 "Guaranteed, 'most of the time'?" Fabian raised an eyebrow.
 
-"Right. Remember I said that the 'mazes-are-deformed-circles' assumption only holds for certain kinds of mazes? For those mazes it'll work every time, because there is only a single path--or solution--between any two points. But if a maze has more than one solution--if there are any 'cycles' in the maze--it can fail you."
+"Right. Remember I said that the 'mazes-are-deformed-circles' assumption only holds for certain kinds of mazes? For those mazes it'll work every time, because there is only a single path---or solution---between any two points. But if a maze has more than one solution---if there are any 'cycles' in the maze---it can fail you."
 
 Fabian looked confused. "Who would ride their bikes in here?"
 

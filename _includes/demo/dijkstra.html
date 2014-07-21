@@ -1,0 +1,22 @@
+<div id="dijkstra-demo" class="figure">
+  <div>
+    <div class="options">
+      Size:
+      <a href="javascript:generateDijkstra('dijkstra', 11)" class="option">small</a>
+      <a href="javascript:generateDijkstra('dijkstra', 15)" class="option">medium</a>
+      <a href="javascript:generateDijkstra('dijkstra', 21)" class="option">large</a>
+      <a href="javascript:generateDijkstra('dijkstra', 29)" class="option">xl</a>
+      <a href="javascript:generateDijkstra('dijkstra', 39)" class="option">xxl</a>
+    </div>
+    <canvas id="dijkstra" width="400" height="400"></canvas>
+    <a href="javascript:updateDijkstra('dijkstra')" class="action">step</a>
+    <a href="javascript:runDijkstra('dijkstra')" class="action">run</a>
+    <a href="javascript:resetDijkstra('dijkstra')" class="action">reset</a>
+  </div>
+  <p class="caption">
+    Tap the "step" button to step through time, just like Basil!<br />
+    The <span style="color:#955;font-weight:bold;">red</span> square is the starting point.<br />
+    The <span style="color:#aaf;font-weight:bold;">blue</span> squares are the &ldquo;wave front&rdquo;.<br />
+    Darker squares are further from the starting point than lighter squares.
+  </p>
+</div>

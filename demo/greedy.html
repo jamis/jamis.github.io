@@ -1,0 +1,21 @@
+---
+layout: default
+scripts:
+  - /js/greedy-minified.js
+script: |
+  window.onload = function() { generateGreedy("greedy-canvas", 15, { longestPath: true , thin: 35, seed: 2147992 }); };
+---
+
+<h1>Greedy Best First Search</h1>
+<h2 class="subtitle">From <a href="{{ site.url }}/2014/06/30/need-greed-speed.html">Chapter 5, "Need, Greed, and Speed"</a></h2>
+
+<div class="blurb">
+  <p>When his first escape attempt flops, Fabian demands an explanation from
+  Nigel for the abysmally inefficient route he selected. Nigel obliges him.</p>
+</div>
+
+<div class="post">
+
+{% include demo/greedy.html %}
+
+</div>

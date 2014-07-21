@@ -68,6 +68,13 @@ h1 {
   text-align: center;
 }
 
+h2.subtitle {
+  text-align: center;
+  font-family: Georgia, serif;
+  padding-top: 1em;
+  margin-bottom: 0;
+}
+
 hr {
   margin: 2em 25%;
 }
@@ -125,6 +132,12 @@ hr {
 
 #home .introduction p:first-child {
   font-weight: bold;
+}
+
+#home .conclusion {
+  border-top: 4px double black;
+  padding: 0.5em 2em;
+  font-size: 16pt;
 }
 
 .posts {
@@ -276,6 +289,12 @@ hr {
 .figure img {
   display: block;
   margin: 0 auto;
+}
+
+.the-end {
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 
 .figure a.action {

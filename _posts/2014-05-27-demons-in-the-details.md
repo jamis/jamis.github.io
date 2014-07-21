@@ -2,7 +2,7 @@
 layout: post
 title: Demons in the Details
 chapter: Chapter 2
-words: 3809
+words: 4003
 blurb: >
   Fabian confesses to a youthful dalliance, discovers how flooding a
   maze is like Dijkstra's algorithm, and faces at least two terrifying
@@ -15,7 +15,7 @@ script: |
   window.onload = function() { generateDijkstra("dijkstra", 11); };
 ---
 
-"It's not too late, sir," Fabian said as he eyed the distant castle nervously. "I'm sure we could get back through the maze quickly, and reach that village before dark--"
+"It's not too late, sir," Fabian said as he eyed the distant castle nervously. "I'm sure we could get back through the maze quickly, and reach that village before dark---"
 
 {% include illustration.html align="right" width="400" height="402" image="002-fabian-looking-at-castle.jpg" alt="Fabian considers curmudgeon castle" caption='Fabian eyed the distant castle nervously...' %}
 
@@ -27,19 +27,19 @@ Fabian cringed. "Yes, sir?"
 
 "That's the second time you've suggested we turn back to that village, and I'm beginning to wonder why you're so fixated on it." He stopped suddenly, his eyes widening. "There's a woman, isn't there?"
 
-Fabian stepped back in surprise and nearly fell headlong down the stairs. "What? No! Sir, I--"
+Fabian stepped back in surprise and nearly fell headlong down the stairs. "What? No! Sir, I---"
 
-"There *is* a woman! I don't know when you'd have managed to get involved with her, but this village thing, and your reaction to the whole dance metaphor--"
+"There *is* a woman! I don't know when you'd have managed to get involved with her, but this village thing, and your reaction to the whole dance metaphor---"
 
-"Sir! No, you misunderstand--"
+"Sir! No, you misunderstand---"
 
 "Do I?" Basil stared curiously at Fabian. "If I've misunderstood, then I certainly apologize, but this fixation on the village is getting tiresome. I'd like to understand what this is all about."
 
-Fabian stood sweating, teetering precariously on the top step without seeming to notice. "I--" he said, and then swallowed noisily. He wiped his forehead with the back of his hand.
+Fabian stood sweating, teetering precariously on the top step without seeming to notice. "I---" he said, and then swallowed noisily. He wiped his forehead with the back of his hand.
 
-"Yes, sir," he finally said. "I will admit that there *was* a woman, once. She--she was an artist living in that village. This was years ago, before I entered your employ. I doubt she's even still there. And even if she was, I'm sure she'd never want to see *me* again." He paused then, and a thoughtful, pained look came into his eyes.
+"Yes, sir," he finally said. "I will admit that there *was* a woman, once. She---she was an artist, the daughter of the village herbalist. This was years ago, before I entered your employ. I doubt she's even still there. And even if she was, I'm sure she'd never want to see *me* again." He paused then, and a thoughtful, pained look came into his eyes.
 
-An uncharacteristically sympathetic look settled onto Basil's face. "What happened?" he asked. "Would you like to--that is, I'm here if--I mean-- Oh, bother. I'm terrible at this." He sighed. "Do you want to talk about it?"
+An uncharacteristically sympathetic look settled onto Basil's face. "What happened?" he asked. "Would you like to---that is, I'm here if---I mean--- Oh, bother. I'm terrible at this." He sighed. "Do you want to talk about it?"
 
 Fabian shrugged. "As I said, sir, it was some time ago. I was a different person, then. Just a boy, really. As for her...well. She was...Anathema."
 
@@ -71,19 +71,19 @@ Fabian shrugged. "There's not much more to tell, sir. I was stupid, and it ended
 
 Basil laughed. "Be careful what you ask for!" He gestured to the second maze that extended from the bottom of the stairs below them. "You might just find yourself with a *double* dose."
 
-Fabian chuckled weakly, but looked relieved. He spoke quickly. "So what are these 'more powerful tricks' you mentioned?"
+Fabian chuckled weakly, but seemed relieved at the change of subject. He spoke quickly. "So what are these 'more powerful tricks' you mentioned?"
 
-Basil nodded. "Very well. There was a wizard once--a great wizard. Really a sharp fellow, though he had some strong opinions. Name of [Dijkstra](http://en.wikipedia.org/wiki/Edsger_W._Dijkstra "Edsger W. Dijkstra")."
+Basil nodded. "Very well. There was a wizard once---a great wizard. Really a sharp fellow, though he had some strong opinions. Name of [Dijkstra](http://en.wikipedia.org/wiki/Edsger_W._Dijkstra "Edsger W. Dijkstra")."
 
-Fabian sighed. "Now *that's* a name worthy of a wizard."
+Fabian whistled appreciatively. "Now *that's* a name worthy of a wizard."
 
 Basil paused, mouth open, and then narrowed his eyes at Fabian. "What are you implying?"
 
-"Ah." Fabian seemed to realize that he was on thin ice. "I was just--ah--trying to imagine a wizard named 'Fabian', sir. It doesn't have the--um--*magical sound* that 'Dijkstra' has." He licked his lips. "Or 'Basil', of course, sir."
+"Ah." Fabian seemed to realize that he was on thin ice. "I was just---ah---trying to imagine a wizard named 'Fabian', sir. It doesn't have the---um---*magical sound* that 'Dijkstra' has." He licked his lips. "Or 'Basil', of course, sir."
 
 Basil looked blankly at Fabian for a long moment, and then blinked once, slowly. "All right, then." He cleared his throat. &ldquo;Anyway. Dijkstra. He came up with an algorithm for, well, let's just say 'navigating mazes', for now. It's actually useful for a great many things, but we'll keep things simple by starting small.
 
-"What Dijkstra's algorithm will do for us here is find the shortest path through that." Basil nodded toward the maze in front of them. "And, more generally, it will find the shortest path to any point in the maze, from any point of our choosing."
+"What Dijkstra's algorithm will do for us here is find the shortest path through *that*." Basil nodded toward the maze in front of them. "And, more generally, it will find the shortest path to any point in the maze, from any point of our choosing."
 
 "*Any* point, sir?" Fabian asked, raising an eyebrow. "Is there any reason we wouldn't just choose the entrance?"
 
@@ -103,15 +103,15 @@ Basil reached into his lab coat and withdrew his battered, blue pencil. Fabian c
 
 "A pencil?"
 
-"If that's what you prefer. I only know a few other wizards who have taken the pencil for their focus. Others choose things like--I dunno--business cards, or hair combs. Mirrors. Broomsticks. Very small rocks. Things like that."
+"If that's what you prefer. I only know a few other wizards who have taken the pencil for their focus. Others choose things like---I dunno---business cards, or hair combs. Mirrors. Broomsticks. Very small rocks. Things like that."
 
 Fabian looked skeptical, but Basil didn't press the point. "Anyway. Here's something to demonstrate how Dijkstra's algorithm works." He sketched a circle on the ground, and a squat cylinder, open on top, appeared there before them. It was about half a meter across, and just a few fingers high.
 
 {% include figure.html width="300" height="237" image="002-empty-container.jpg" alt="Empty cylinder" %}
 
-"Now imagine, Fabian, that we can freeze time itself--make all motion cease--all activity, everything. Raindrops would halt in mid-air, people would abruptly stop in mid-step, thrown balls would hang suspended above the ground."
+"Now imagine, Fabian, that we can freeze time itself---make all motion cease---all activity, everything. Raindrops would halt in mid-air, people would abruptly stop in mid-step, thrown balls would hang suspended above the ground."
 
-Fabian nodded appreciatively. "Now *that* would be a useful spell to know, sir," he said. "I could actually get the house completely clean for a change, without *somebody* constantly messing things up behind me."
+Fabian nodded eagerly. "Now *that* would be a useful spell to know, sir," he said. "I could actually get the house completely clean for a change, without *somebody* constantly messing things up behind me."
 
 Basil rolled his eyes. "It's not a real spell, Fabian. I'm asking you to *imagine*."
 
@@ -121,7 +121,7 @@ Basil rolled his eyes. "It's not a real spell, Fabian. I'm asking you to *imagin
 
 {% include figure.html width="300" height="237" image="002-cylinder-with-ball.jpg" alt="Cylinder with ball of water" %}
 
-"Now, Fabian. If I let time run for just a moment--a half second or so--and then stop it again, what will happen?"
+"Now, Fabian. If I let time run for just a moment---a half second or so---and then stop it again, what will happen?"
 
 Fabian pointed to the cylinder. "The water will spread out and make a mess."
 
@@ -165,28 +165,7 @@ Fabian smiled. "I think I see it, sir. The water will spread out, following the 
 
 He sketched a ball of water in the middle, as before, and then proceeded to make chopping motions with the pencil again. Just as Fabian had predicted, the water moved in fits and starts through the passages until it had eventually filled them all.
 
-<div id="dijkstra-demo" class="figure">
-  <div>
-    <div class="options">
-      Size:
-      <a href="javascript:generateDijkstra('dijkstra', 11)" class="option">small</a>
-      <a href="javascript:generateDijkstra('dijkstra', 15)" class="option">medium</a>
-      <a href="javascript:generateDijkstra('dijkstra', 21)" class="option">large</a>
-      <a href="javascript:generateDijkstra('dijkstra', 29)" class="option">xl</a>
-      <a href="javascript:generateDijkstra('dijkstra', 39)" class="option">xxl</a>
-    </div>
-    <canvas id="dijkstra" width="400" height="400"></canvas>
-    <a href="javascript:updateDijkstra('dijkstra')" class="action">step</a>
-    <a href="javascript:runDijkstra('dijkstra')" class="action">run</a>
-    <a href="javascript:resetDijkstra('dijkstra')" class="action">reset</a>
-  </div>
-  <p class="caption">
-    Tap the "step" button to step through time, just like Basil!<br />
-    The <span style="color:#955;font-weight:bold;">red</span> square is the starting point.<br />
-    The <span style="color:#aaf;font-weight:bold;">blue</span> squares are the &ldquo;wave front&rdquo;.<br />
-    Darker squares are further from the starting point than lighter squares.
-  </p>
-</div>
+{% include demo/dijkstra.html link="A picture is worth a thousand words, so an animation must be worth millions! Dijkstra's algorithm may be clearer with some hands-on experience." %}
 
 Fabian clapped delightedly. "I do see it, sir! Some of those dead-ends were filled later than others, which means that the path the water took to reach them must have been longer than the paths that filled sooner, right? So the sooner the water filled the path, the shorter the path was?"
 
@@ -202,17 +181,17 @@ Basil wagged the pencil warningly. "Don't get too comfortable, however. The demo
 
 Fabian yelped at that, but Basil waved his pencil sharply before he could protest. There was a flash of ominous red light and an enormous billowing of acrid smoke. The sharp smell of sulfur filled the air.
 
-In a panic, coughing desperately and eyes stinging, Fabian frantically fanned the evil-smelling smoke away, trying to see what Basil's magic had done. His hands seemed to have little effect, though, and while the foul vapor yet clouded the air, a deep, grating voice boomed from in front of them. "Who summons me? Answer, mortal, or feel my wrath!"
+In a panic, coughing desperately and eyes stinging, Fabian frantically fanned the evil-smelling smoke away, trying to see what Basil's magic had wrought. His hands seemed to have little effect, though, and while the foul vapor yet clouded the air, a deep, grating voice boomed from in front of them. "WHO SUMMONS ME? ANSWER, MORTAL, OR FEEL MY WRATH!"
 
 The ground shook slightly, too, which struck Fabian as patently unfair.
 
 Basil patted him on the shoulder. "Oh, don't listen to him," he said. "He likes to bluster, but his wrath is about as terrifying as discovering you're one tortilla short at a taco dinner."
 
-"I heard that!" came the booming voice. The smoke still obscured anything more than an arm's-length away, but Fabian thought he could make out a dim shadow near the ground in front of him. "Article 2, paragraph 5 of my contract clearly states that I am allowed to threaten my summoner!"
+"I heard that!" came the booming voice. The smoke still obscured anything more than an arm's-length away, but Fabian thought he could make out a dim shadow near the ground in front of him. "Article two, paragraph five of my contract clearly states that I am allowed to threaten my summoner!"
 
 "And so you are," Basil said calmly. "By all means, threaten away. It was not my intent to interrupt. Please kindly let us know when you're through."
 
-The smoke was dissipating rapidly on its own now and Fabian was astonished to discover, on the ground about two meters away, a small man with pinkish skin and dark hair, and sporting a narrow goatee much like his own. The little man was dressed in an awkward floral shirt and matching pants, and he stood, in all, no more than knee-high. Arms folded and red eyes glowing fiercely, he was glaring at Basil.
+The smoke was dissipating rapidly on its own now and Fabian was astonished to discover, on the ground about two meters away, a very small man with pinkish skin and dark hair, and sporting a narrow goatee much like his own. The little fellow was dressed in an awkward floral shirt and matching pants, and he stood, in all, no more than knee-high. Arms folded and red eyes glowing fiercely, he was glaring at Basil.
 
 {% include illustration.html align="left" width="400" height="376" image="002-nigel.jpg" alt="Nigel appears" caption='A small man with pinkish skin and a narrow goatee' %}
 
@@ -224,11 +203,11 @@ Basil smiled. "Fabian, allow me to introduce Nigel."
 
 "'Fabian'?" The demon mimicked, sneering. "'Basil'? Oh, go on." He gestured rudely and turned aside, looking disgusted.
 
-Basil smiled again and leaned in to whisper confidentially to Fabian. "He's a grumpy one, Nigel is, but I've always felt it was just an act. You'll get used to him. He's not even a true demon, really, just a type 2 homunculus, but he gets touchy if you ever try to point that out."
+Basil smiled again and leaned in to whisper confidentially to Fabian. "He's a grumpy one, Nigel is, but I've always felt it was just an act. You'll get used to him. He's not even a true demon, really, just a Type 2 homunculus, but he gets touchy if you ever try to point that out."
 
 Fabian looked uncomfortably at the tiny man. "So, how is he going to help us?"
 
-Basil gestured at Nigel. "He's a counter--it's one of his specialties. He counts things. He's also a splitter--he can break himself into arbitrarily many copies, each under his control. We'll have him use those attributes with Dijkstra's algorithm to find the shortest path."
+Basil gestured at Nigel. "He's a *counter*---it's one of his specialties. He counts things. He's also a *splitter*---he can break himself into arbitrarily many copies, each under his control. Sadly, he can only control one copy at a time, but still, it's a useful ability. We'll have him use those attributes with Dijkstra's algorithm to find the shortest path."
 
 "Are you both quite through talking about me?" Nigel asked, still not looking at them. "That's very rude, you realize. I should know. I do it all the time."
 
@@ -248,11 +227,19 @@ Nigel glanced at it and *tsked*. "Looks complicated. How very sad for you."
 
 Nigel sighed in a very put-upon way. "*Sooo* original."
 
-Basil continued, ignoring the little demon's complaints. "Each copy of yourself will then be assigned a different path, and will move down that path, counting steps to the *next* branching. Also, each copy of yourself will always move at the *same pace*. That's important!"
+Basil continued, ignoring the little demon's complaints. "Once split, you'll only ever walk the copy that has moved the least distance. Each copy will keep track of the total number of steps it has taken."
 
-Nigel looked around absently. "Same pace. Got it."
+Nigel looked around absently. "Least distance. Count steps. Got it."
 
-Basil went on. "*Third.* If one of your copies encounters a dead-end, it will stop."
+Fabian interrupted, confused. "Wait, what? Why only walk the copy that's moved the least distance?"
+
+Nigel rolled his eyes, but Basil explained. "It's because Nigel can't walk *all* of the copies simultaneously. If he could, then he'd do that---just like the wavefront of the water we talked about. Since he can't, though, he always walks the one that's walked the least. That way, no clone is ever more than one step behind that wavefront. It *approximates* it. Does that make sense?"
+
+Fabian wrinkled his brow in thought. "...I think so."
+
+Nigel snorted. "Don't hurt yourself, kid."
+
+Basil raised an eyebrow. "Nigel," he said warningly. "*Third.* If one of your copies encounters a dead-end, it will stop."
 
 "Oh-ho! He's getting tricky, now, boys."
 
@@ -278,11 +265,11 @@ Fabian followed suit then, and watched.
 
 As Nigel walked into the maze, his red glow seemed to intensify. It clung to the hedges as he passed, lighting the path behind him as if the maze were catching fire. Thus it was that, even though Nigel himself was quickly lost to view, from their vantage at the top of the stairs the two men could easily see the demon as he progressed through the maze.
 
-Fabian watched, entranced, as the red path reached the first intersection. There was the barest of pauses before--true to Basil's instructions--the glow proceeded to follow both paths at the same time.
+Fabian watched, entranced, as the red path reached the first intersection. There was the barest of pauses before---true to Basil's instructions---the glow split and proceeded to follow both paths at the same time. Slowly, though. Fabian realized that control was bouncing back and forth between the copies. As soon as one had moved farther than the others, it would stop, and another one would begin walking.
 
-"See? There he goes," Basil said. "I only wish he could move faster--the effect would be far more dramatic. Alas, it's not in his contract."
+"See? There he goes," Basil said. "I only wish he could move faster---the effect would be far more dramatic. Alas, it's not in his contract."
 
-Fabian felt the effect was plenty dramatic. It truly was like watching a cascade of water--red water, admittedly--flood the maze. It ran through the passages, filling dead ends and dividing at intersections. The effect spread outward like a wave as Nigel duplicated himself over and over, and each copy did the same. Even at Nigel's unhurried pace, Fabian still quickly lost count of how many copies were active.
+Fabian felt the effect was plenty dramatic. It truly was like watching a cascade of water---slow, red water, admittedly---flood the maze. It ran through the passages, filling dead ends and dividing at intersections. The effect spread outward like a wave as Nigel duplicated himself over and over, and each copy did the same. Even at the homunculus' unhurried pace, Fabian soon quickly lost count of how many copies were active.
 
 "It's...beautiful," Fabian said.
 
@@ -290,7 +277,7 @@ Basil hesitated, and then nodded, looking surprised. "Yes, now you mention it. I
 
 Basil looked troubled as he said it, and sat stroking his mustaches in brow-furrowed silence for a few minutes. Eventually, he shook himself from whatever dark reverie had gripped him.
 
-"Here," he said gruffly. "Let's use the time productively. Hmm." He glanced around before getting up and trotting over to a nearby hedge. Breaking off a small branch, he returned and handed it to Fabian. "Here. You'll want to find a wand of your own, but see if this works at all for now."
+"Here," he said gruffly. "Let's use the time productively. Hmm." He glanced around before getting up and trotting over to a nearby hedge. Breaking off a small branch, he returned and handed it to Fabian. "Here. You'll want to find a wand of your own, eventually, but see if this works at all for now."
 
 Fabian held the branch delicately between thumb and forefinger and cast a doubtful eye upon it. The stick was about as long as his hand, spindly, with one sad leaf clinging stubbornly to the end. "Okay... What do you want me to do with it?"
 
@@ -314,7 +301,7 @@ Fabian tried again, to no effect. He tried again and again, for many long minute
 
 "Lucky me," Fabian sighed. He took the twig and tucked it into his pocket.
 
-They watched in silence for several minutes more before the red glow finally reached the exit, at which point all the red drained from the maze. The red glow at the exit began moving back toward the entrance, keeping to the same deliberate pace. Eventually it reached the first passage, and they could see Nigel again. He looked *faded* somehow, but as he reached the entrance, he paused and quite suddenly grew solid again. Fabian realized the demon had re-assimilated his many copies.
+They watched in silence for several minutes more before the red glow finally reached the exit, at which point all the red drained from the maze. The red glow at the exit began moving back toward the entrance, much faster now that it didn't have to move in lock-step with the copies. Eventually it reached the first passage, and they could see Nigel again. He looked *faded* somehow, but as he reached the entrance, he paused and quite suddenly grew solid again. Fabian realized the demon had re-assimilated his many copies.
 
 "Well, there he is," Basil said, rising and dusting himself off. "Let's go see which path he's going to recommend."
 
@@ -328,7 +315,7 @@ Basil turned back to the demon and gestured toward the entrance. "Lead on!"
 
 Nigel rolled his eyes, but turned back around and reentered the maze. The two men followed him.
 
-Though the red glow had disappeared, Nigel seemed to be quite confident in the route to take, turning without hesitation at some intersections and proceeding boldly past others. So it was that they soon reached the exit and found Curmudgeon Castle looming (or perhaps *trying* to loom--it wasn't very large, or particularly imposing) just beyond.
+Though the red glow had disappeared, Nigel seemed to be quite confident in the route to take, turning without hesitation at some intersections and proceeding boldly past others. So it was that they soon reached the exit and found Curmudgeon Castle looming (or perhaps *trying* to loom---it wasn't very large, or particularly imposing) just beyond.
 
 Nigel sniffed. "There you are, good sirs. If there's anything else you need, please call someone else." Before they could reply, he disappeared in a puff of brimstone-scented smoke.
 
@@ -342,9 +329,9 @@ A dozen meters outside stood a portly, bespectacled man dressed in a plaid kilt 
 
 Fergus nodded carefully. "Aye," he said, frowning. "Indeed it has, Basil Smockwhitener. We've managed to scrape together a room for you, but you said to expect a manservant, too. Did we make those preparations for nothing, then?"
 
-Basil looked around in startlement, realizing now that Fabian was nowhere to be seen. "Well, I'll be. Where did that fellow hide himself?" He suddenly saw him then, hiding in the shadows of the maze, and gestured sharply. "Fabian!" he said. "Get out here! What are you doing?"
+Basil looked around in startlement, realizing now that Fabian was nowhere to be seen. "Well, I'll be. Where did that fellow hide himself?" He soon found him, hiding in the shadows of the maze, and gestured sharply. "Fabian!" he said. "Get out here! What are you doing?"
 
-Fergus started visibly at mention of Fabian's name, and started again--even more violently--when Fabian himself emerged from the maze. He lowered his staff and pointed it at the manservant. "*You!*" he said, his voice venomously low and intense.
+Fergus started visibly at mention of Fabian's name, and started again---even more violently---when Fabian himself emerged from the maze. He lowered his staff and pointed it at the manservant. "*You!*" he said, his voice venomously low and intense.
 
 Fabian waved weakly, smiling like he was going to be ill. "'Lo, Fergus."
 

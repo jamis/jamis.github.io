@@ -1,0 +1,22 @@
+---
+layout: default
+scripts:
+  - /js/dijkstra-minified.js
+script: |
+  window.onload = function() { generateDijkstra("dijkstra", 11); };
+---
+
+<h1>Dijkstra's Algorithm</h1>
+<h2 class="subtitle">From <a href="{{ site.url }}/2014/05/27/demons-in-the-details.html">Chapter 2, "Demons in the Details"</a></h2>
+
+<div class="blurb">
+  <p>Basil, in order to get through the inner maze, and introduces Fabian the work
+  of the great wizard Dijkstra. He shows how Dijkstra's algorithm works like water,
+  flooding through the passages of a maze.</p>
+</div>
+
+<div class="post">
+
+{% include demo/dijkstra.html %}
+
+</div>

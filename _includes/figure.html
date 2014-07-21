@@ -1,4 +1,4 @@
-<div class="figure">
+<div class="figure {{ include.class }}">
   <img class="desktop" src="{{ site.url }}/images/{{ include.image }}" width="{{ include.width }}" height="{{ include.height }}" alt="{{ include.alt }}" />
   <img class="mobile" src="{{ site.url }}/images/{{ include.image }}" width="{{ include.width | divided_by:2 }}" height="{{ include.height | divided_by:2 }}" alt="{{ include.alt }}" />
 </div>

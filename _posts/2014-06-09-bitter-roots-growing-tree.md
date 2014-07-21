@@ -2,7 +2,7 @@
 layout: post
 title: Bitter Roots, Growing Tree
 chapter: Chapter 3
-words: 4579
+words: 4580
 blurb: >
   Basil relaxes in the drawing room and tries to learn some Curmudgeon family
   history. He meets Fergus' assistant. A comparison of maze
@@ -235,7 +235,7 @@ Monsanto shook his head. "You lost me."
 
 "What a surprise," Fergus said, grinning viciously.
 
-Basil leaned forward and looked between the two other men. "Now, now," he said placatingly. &ldquo;It's really not so bad. Basically, the Growing Tree algorithm works by first planting a 'seed'---the location from which you will start 'growing' your maze. We'll put that starting location---that seed---into a list. It'll be the only thing in the list at first, but each pass through the algorithm will grow the 'tree' a little bit by inspecting one the locations in the list, selecting a new location right next to it, and then adding that new location to the list, too.
+Basil leaned forward and looked between the two other men. "Now, now," he said placatingly. &ldquo;It's really not so bad. Basically, the Growing Tree algorithm works by first planting a 'seed'---the location from which you will start 'growing' your maze. We'll put that starting location---that seed---into a list. It'll be the only thing in the list at first, but each pass through the algorithm will grow the 'tree' a little bit by inspecting one of the locations in the list, selecting a new location right next to it, and then adding that new location to the list, too.
 
 {% include figure.html width="300" height="253" image="003-growing-tree.jpg" alt="Growing tree algorithm" %}
 
@@ -275,7 +275,7 @@ Basil nodded. "That's right."
 
 Fergus closed the little book and set it aside. "Once I knew the algorithm I wanted, it was just a matter of summoning a Walker to pace out the passages, and then quick-growing hedges to form the walls. Took about three days, all together."
 
-Basil nodded, eyes twinkling over his voluminous mustaches. "Well, very nicely done, Fergus. The Conclave would be impressed! These really are impressive mazes. The height of the hedges is particularly intimidating."
+Basil nodded, eyes twinkling over his voluminous mustaches. "Well, very nicely done, Fergus. The Conclave would be impressed! These really are extraordinary mazes. The height of the hedges is particularly intimidating."
 
 Fergus seemed to appreciate the praise for a moment, but then dropped his gaze to the floor again, glowering. "Well, little good they did me. They failed to keep someone out, and they failed to keep someone in. At this point, they only earn me complaints from the Imperial Courier Service."
 

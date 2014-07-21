@@ -1,0 +1,21 @@
+---
+layout: default
+scripts:
+  - /js/tree-transform-minified.js
+script: |
+  window.onload = function() { generateTree("transform-canvas", 11); };
+---
+
+<h1>Tree Transformation</h1>
+<h2 class="subtitle">From <a href="{{ site.url }}/2014/06/23/second-great-secret.html">Chapter 4, "The Second Great Secret"</a></h2>
+
+<div class="blurb">
+  <p>Basil teaches Fabian the relationship between trees and mazes by giving
+  a demonstration that morphs one into the other.</p>
+</div>
+
+<div class="post">
+
+{% include demo/transform.html %}
+
+</div>

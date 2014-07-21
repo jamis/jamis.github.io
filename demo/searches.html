@@ -1,0 +1,21 @@
+---
+layout: default
+scripts:
+  - /js/searches-minified.js
+script: |
+  window.onload = function() { generateSearches("searches-canvas", 20, 2500734); };
+---
+
+<h1>Algorithm Comparison</h1>
+<h2 class="subtitle">From <a href="{{ site.url }}/2014/07/08/following-a-star.html">Chapter 6, "Following a Star"</a></h2>
+
+<div class="blurb">
+  <p>After demonstrating the <a href="/demo/astar.html">A* algorithm</a>, Nigel
+  shows Fabian a comparison of all three at once: Dijkstra's, Greedy, and A*.</p>
+</div>
+
+<div class="post">
+
+{% include demo/searches.html %}
+
+</div>
