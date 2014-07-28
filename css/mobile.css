@@ -23,6 +23,15 @@ body.about .site {
 #banner { display: none; }
 #mobile-banner { display: block; }
 
+.badge.desktop {
+  display: none;
+}
+
+.badge.mobile {
+  display: block;
+  text-align: center;
+}
+
 h1 {
   font-size: 18pt;
   text-align: center;

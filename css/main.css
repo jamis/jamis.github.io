@@ -140,6 +140,16 @@ hr {
   font-size: 16pt;
 }
 
+.badge.desktop {
+  float: right;
+  margin-left: 1em;
+  margin-right: -3em;
+}
+
+.badge.mobile {
+  display: none;
+}
+
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
